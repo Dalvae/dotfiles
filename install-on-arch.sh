@@ -19,6 +19,10 @@ system_update(){
     sudo pacman -Sy --noconfirm archlinux-keyring
     sudo pacman --noconfirm -Syu
     sudo pacman -S --noconfirm --needed base-devel wget git curl
+    if ! grep -q "\[multilib\]" /etc/pacman.conf; then
+    echo "[multilib]" >> /etc/pacman.conf
+    echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
+    fi
 }
 install_aur_helper(){ 
     if ! command -v "$aurhelper" &> /dev/null
@@ -29,10 +33,12 @@ install_aur_helper(){
     else
     echo -e "${green}[*] It seems that you already have $aurhelper installed, skipping.${no_color}"
     fi
+
 }
+
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman.${no_color}"
-    sudo pacman -S --noconfirm --needed acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit alacritty btop code dunst feh firefox i3-gaps libnotify light mpc mpd ncmpcpp nemo neofetch neovim pacman-contrib papirus-icon-theme picom polybar ranger rofi scrot slop xclip zathura zathura-pdf-mupdf zsh
+    sudo pacman -S --noconfirm --needed acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit alacritty btop code dunst feh firefox i3-gaps libnotify light mpc mpd ncmpcpp nemo neofetch neovim pacman-contrib papirus-icon-theme picom polybar ranger rofi scrot slop xclip zathura zathura-pdf-mupdf zsh acpi alacritty alsa-utils baobab base base-devel blueman bluetooth-autoconnect bluez bluez-utils btop calibre cheese deluge dhcpcd dialog digikam discord dunst efibootmgr eog epiphany evince feh ffcast firefox foliate gamemode gimp git github-cli gnome-keyring gparted grilo-plugins grub gvfs-afc gvfs-goa gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-resurrect i3-wm i3lock-color intel-ucode iwd keyboard-visualizer-git lib32-alsa-lib lib32-alsa-plugins lib32-gamemode lib32-giflib lib32-gnutls lib32-gst-plugins-base-li.22. lib32-gtk3 lib32-libjpeg-turbo lib32-libpulse lib32-libva lib32-libva-mesa-driver lib32-libxcomposite lib32-libxinerama lib32-libxslt lib32-mesa-demos lib32-mesa-vdpau lib32-mpg123 lib32-nvidia-utils lib32-ocl-icd lib32-openal lib32-opencl-mesa lib32-sqlite lib32-v4l-utils lib32-vkd3d lib32-vulkan-mesa-layers libnotify libreoffice-fresh libva-mesa-driver light linux linux-firmware lutris lxpolkit-git maim mesa-demos mesa-vdpau mpc mpd nano nautilus ncmpcpp nemo nemo-fileroller neofetch neovim networkmanager noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g ntp nvidia nvidia-settings obs-studio oh-my-zsh-git opencl-mesa opencl-nvidia openrgb orca os-prober pacman-contrib papirus-icon-theme picom pipewire-media-session polkit-gnome polkit-kde-agent polybar pulseaudio pulseaudio-alsa pulsemixer python-cookiecutter python-pip qbittorrent qt5-graphicaleffects qt5-quickcontrols2 qt5-svg ranger rofi rygel scrot sddm simple-mtpfs simple-scan slop spotify-launcher stremio sushi ticktick totem tracker3-miners unetbootin unrar v4l2loopback-dkms visual-studio-code-bin vivaldi vkd3d vlc vnstat vulkan-mesa-layers vulkan-tools wget wine-staging xclip xdg-desktop-portal-gnome xdg-user-dirs-gtk xf86-video-vesa xfce-polkit xorg-bdftopcf xorg-docs xorg-font-util xorg-fonts-100dpi xorg-fonts-75dpi xorg-fonts-encodings xorg-iceauth xorg-mkfontscale xorg-server xorg-server-common xorg-server-devel xorg-server-xephyr xorg-server-xnest xorg-server-xvfb xorg-sessreg xorg-setxkbmap xorg-smproxy xorg-x11perf xorg-xauth xorg-xbacklight xorg-xcmsdb xorg-xcursorgen xorg-xdpyinfo xorg-xdriinfo xorg-xev xorg-xgamma xorg-xhost xorg-xinit xorg-xinput xorg-xkbcomp xorg-xkbevd xorg-xkbutils xorg-xkill xorg-xlsatoms xorg-xlsclients xorg-xmodmap xorg-xpr xorg-xprop xorg-xrandr xorg-xrdb xorg-xrefresh xorg-xset xorg-xsetroot xorg-xvinfo xorg-xwayland xorg-xwd xorg-xwininfo xorg-xwud yay yelp zathura zathura-cb zathura-pdf-mupdf zram-generator zsh
 }
 install_aur_pkgs(){
     echo -e "${green}[*] Installing packages with $aurhelper.${no_color}"
@@ -43,7 +49,7 @@ create_default_directories(){
     mkdir -p "$HOME"/.config
     sudo mkdir -p  /usr/local/bin
     sudo mkdir -p  /usr/share/themes
-    mkdir -p "$HOME"/Pictures/wallpapers
+    mkdir -p "$HOME"/pictures/wallpapers
 }
 create_backup(){
     echo -e "${green}[*] Creating backup of existing configs.${no_color}"
@@ -66,7 +72,7 @@ create_backup(){
 
     [ -f "$config_directory"/Code\ -\ OSS/User/settings.json ] && mv "$config_directory"/Code\ -\ OSS/User/settings.json "$config_directory"/Code\ -\ OSS/User/settings.json_$date && echo "Vsc configs detected, backing up."
 
-    [ -f /etc/fonts/local.conf ] && sudo mv /etc/fonts/local.conf /etc/fonts/local.conf_$date && echo "Fonts configs detected, backing up."
+    [ -f /fonts/local.conf ] && sudo mv /etc/fonts/local.conf /etc/fonts/local.conf_$date && echo "Fonts configs detected, backing up."
 }
 copy_configs(){
     echo -e "${green}[*] Copying configs to $config_directory.${no_color}"
@@ -142,9 +148,9 @@ options=(1 "System update" on
          8 "Copy scripts" on
          9 "Copy fonts" on
          10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" on
-         11 "Install additional packages" off
-         12 "Install emoji fonts" off
-         13 "Install sddm with flower theme" off
+         11 "Install additional packages" on
+         12 "Install emoji fonts" on
+         13 "Install sddm with flower theme" on
          14 "Make Light executable, set zsh as default shell, update nvim extensions." on)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
