@@ -1,6 +1,6 @@
 ZSH="/usr/share/oh-my-zsh/"
 export ZSH="/usr/share/oh-my-zsh/"
-ZSH_THEME="keyitdev"
+ZSH_THEME="agnoster"
 plugins=(git)
 
 ZSH_CACHE_DIR="$HOME/.cache/oh-my-zsh"
@@ -36,6 +36,10 @@ alias gra="git remote add origin git@github.com:"
 alias grs="git remote set-url origin git@github.com:"
 
 # other
+alias install="sudo pacman -S"
+alias separate="python3 -m demucs -n mdx_q -d cpu"
+alias bluetooth= "sudo systemctl start bluetooth.service"
+# alias wifi= "ss"  addbluetoth command here
 alias nv="nvim"
 alias la="ls -alF"
 alias h="history|grep"
