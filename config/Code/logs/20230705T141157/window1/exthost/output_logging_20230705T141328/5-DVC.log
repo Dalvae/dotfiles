@@ -1,0 +1,1362 @@
+[version: 1.0.12, 2023-07-05T18:13:35.444Z, pid: 45333] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:35.458Z, pid: 45333] > /bin/python -m dvc root - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:13:35.466Z, pid: 45335] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:35.473Z, pid: 45337] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:35.475Z, pid: 45335] > git rev-parse --show-toplevel - FAILED with code 128 (16ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.12, 2023-07-05T18:13:35.482Z, pid: 45338] > git version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:35.486Z, pid: 45338] > git version - COMPLETED (10ms)
+[version: 1.0.12, 2023-07-05T18:13:35.493Z, pid: 45337] > /bin/python -m dvc --version - FAILED with code 1 (26ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:13:35.500Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:35.503Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:13:35.510Z, pid: 45341] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:35.515Z, pid: 45341] > git rev-parse --show-toplevel - FAILED with code 128 (10ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.12, 2023-07-05T18:13:35.522Z, pid: 45342] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:35.530Z, pid: 45342] > git rev-parse --show-toplevel - FAILED with code 128 (14ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.12, 2023-07-05T18:13:40.530Z, pid: 45351] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:40.565Z, pid: 45351] > /bin/python -m dvc --version - FAILED with code 1 (57ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:13:40.573Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:40.574Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:13:45.584Z, pid: 45410] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:45.615Z, pid: 45410] > /bin/python -m dvc --version - FAILED with code 1 (40ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:13:45.624Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:45.625Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:13:50.637Z, pid: 45423] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:50.663Z, pid: 45423] > /bin/python -m dvc --version - FAILED with code 1 (36ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:13:50.674Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:50.676Z, pid: 0] > dvc --version - FAILED (12ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:13:55.685Z, pid: 45446] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:55.700Z, pid: 45446] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:13:55.705Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:13:55.706Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:00.713Z, pid: 45448] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:00.727Z, pid: 45448] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:00.733Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:00.735Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:05.746Z, pid: 45451] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:05.759Z, pid: 45451] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:05.765Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:05.767Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:10.778Z, pid: 45454] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:10.792Z, pid: 45454] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:10.797Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:10.799Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:15.811Z, pid: 45493] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:15.843Z, pid: 45493] > /bin/python -m dvc --version - FAILED with code 1 (42ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:15.850Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:15.852Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:20.865Z, pid: 45584] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:20.879Z, pid: 45584] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:20.884Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:20.885Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:25.900Z, pid: 45595] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:25.921Z, pid: 45595] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:25.930Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:25.932Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:30.942Z, pid: 45598] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:30.955Z, pid: 45598] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:30.961Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:30.962Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:35.968Z, pid: 45627] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:35.982Z, pid: 45627] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:35.988Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:35.989Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:41.009Z, pid: 45653] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:41.022Z, pid: 45653] > /bin/python -m dvc --version - FAILED with code 1 (30ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:41.029Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:41.030Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:46.039Z, pid: 45656] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:46.053Z, pid: 45656] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:46.060Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:46.061Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:51.080Z, pid: 45661] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:51.094Z, pid: 45661] > /bin/python -m dvc --version - FAILED with code 1 (29ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:51.100Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:51.102Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:14:56.112Z, pid: 45665] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:56.126Z, pid: 45665] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:14:56.131Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:14:56.133Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:01.144Z, pid: 45668] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:01.158Z, pid: 45668] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:01.164Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:01.165Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:06.175Z, pid: 45674] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:06.188Z, pid: 45674] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:06.194Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:06.195Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:11.204Z, pid: 45676] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:11.217Z, pid: 45676] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:11.223Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:11.225Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:16.236Z, pid: 45679] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:16.249Z, pid: 45679] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:16.255Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:16.256Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:21.266Z, pid: 45686] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:21.280Z, pid: 45686] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:21.285Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:21.287Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:26.296Z, pid: 45693] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:26.311Z, pid: 45693] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:26.319Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:26.320Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:31.332Z, pid: 45700] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:31.350Z, pid: 45700] > /bin/python -m dvc --version - FAILED with code 1 (28ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:31.356Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:31.358Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:36.369Z, pid: 45706] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:36.383Z, pid: 45706] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:36.389Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:36.390Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:41.400Z, pid: 45714] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:41.414Z, pid: 45714] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:41.420Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:41.421Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:46.426Z, pid: 45786] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:46.440Z, pid: 45786] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:46.445Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:46.447Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:51.453Z, pid: 45790] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:51.467Z, pid: 45790] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:51.472Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:51.474Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:15:56.480Z, pid: 45792] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:56.493Z, pid: 45792] > /bin/python -m dvc --version - FAILED with code 1 (18ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:15:56.499Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:15:56.501Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:01.506Z, pid: 45796] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:01.520Z, pid: 45796] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:01.526Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:01.527Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:06.532Z, pid: 45802] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:06.546Z, pid: 45802] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:06.552Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:06.553Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:11.559Z, pid: 45807] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:11.578Z, pid: 45807] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:11.583Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:11.585Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:16.591Z, pid: 45815] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:16.605Z, pid: 45815] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:16.611Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:16.612Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:21.618Z, pid: 45822] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:21.632Z, pid: 45822] > /bin/python -m dvc --version - FAILED with code 1 (18ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:21.637Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:21.639Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:26.660Z, pid: 45846] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:26.685Z, pid: 45846] > /bin/python -m dvc --version - FAILED with code 1 (43ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:26.693Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:26.694Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:31.699Z, pid: 45859] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:31.713Z, pid: 45859] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:31.719Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:31.720Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:36.728Z, pid: 45862] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:36.742Z, pid: 45862] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:36.749Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:36.752Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:41.758Z, pid: 45866] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:41.772Z, pid: 45866] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:41.778Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:41.779Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:46.786Z, pid: 45869] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:46.799Z, pid: 45869] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:46.805Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:46.806Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:51.813Z, pid: 45871] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:51.827Z, pid: 45871] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:51.834Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:51.836Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:16:56.842Z, pid: 45882] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:56.856Z, pid: 45882] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:16:56.862Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:16:56.863Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:01.871Z, pid: 45972] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:01.890Z, pid: 45972] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:01.897Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:01.900Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:06.910Z, pid: 45975] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:06.925Z, pid: 45975] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:06.932Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:06.933Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:11.941Z, pid: 45985] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:11.959Z, pid: 45985] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:11.967Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:11.968Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:16.974Z, pid: 45997] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:16.988Z, pid: 45997] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:16.994Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:16.995Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:22.003Z, pid: 46005] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:22.017Z, pid: 46005] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:22.023Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:22.025Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:27.033Z, pid: 46008] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:27.047Z, pid: 46008] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:27.053Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:27.054Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:32.062Z, pid: 46010] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:32.076Z, pid: 46010] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:32.083Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:32.084Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:37.091Z, pid: 46015] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:37.110Z, pid: 46015] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:37.117Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:37.119Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:42.127Z, pid: 46051] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:42.148Z, pid: 46051] > /bin/python -m dvc --version - FAILED with code 1 (28ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:42.155Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:42.157Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:47.165Z, pid: 46059] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:47.178Z, pid: 46059] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:47.184Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:47.186Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:52.194Z, pid: 46064] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:52.208Z, pid: 46064] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:52.214Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:52.215Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:17:57.222Z, pid: 46070] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:57.236Z, pid: 46070] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:17:57.243Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:17:57.246Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:02.253Z, pid: 46082] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:02.274Z, pid: 46082] > /bin/python -m dvc --version - FAILED with code 1 (27ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:02.281Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:02.282Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:07.290Z, pid: 46085] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:07.308Z, pid: 46085] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:07.315Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:07.316Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:12.323Z, pid: 46087] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:12.337Z, pid: 46087] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:12.343Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:12.345Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:17.352Z, pid: 46098] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:17.367Z, pid: 46098] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:17.373Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:17.375Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:22.382Z, pid: 46158] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:22.396Z, pid: 46158] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:22.402Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:22.403Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:27.411Z, pid: 46163] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:27.431Z, pid: 46163] > /bin/python -m dvc --version - FAILED with code 1 (27ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:27.438Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:27.439Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:32.446Z, pid: 46173] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:32.460Z, pid: 46173] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:32.466Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:32.467Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:37.474Z, pid: 46175] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:37.489Z, pid: 46175] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:37.495Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:37.497Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:42.504Z, pid: 46179] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:42.518Z, pid: 46179] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:42.526Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:42.527Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:47.533Z, pid: 46184] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:47.547Z, pid: 46184] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:47.553Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:47.554Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:52.560Z, pid: 46188] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:52.574Z, pid: 46188] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:52.580Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:52.582Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:18:57.590Z, pid: 46190] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:57.604Z, pid: 46190] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:18:57.610Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:18:57.612Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:02.618Z, pid: 46193] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:02.637Z, pid: 46193] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:02.643Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:02.644Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:07.652Z, pid: 46195] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:07.666Z, pid: 46195] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:07.672Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:07.673Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:12.680Z, pid: 46204] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:12.699Z, pid: 46204] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:12.705Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:12.707Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:17.713Z, pid: 46222] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:17.727Z, pid: 46222] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:17.733Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:17.735Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:22.741Z, pid: 46234] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:22.755Z, pid: 46234] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:22.762Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:22.763Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:27.771Z, pid: 46251] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:27.785Z, pid: 46251] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:27.792Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:27.793Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:32.800Z, pid: 46260] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:32.814Z, pid: 46260] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:32.820Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:32.822Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:37.828Z, pid: 46276] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:37.842Z, pid: 46276] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:37.848Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:37.850Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:42.858Z, pid: 46279] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:42.876Z, pid: 46279] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:42.883Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:42.884Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:47.890Z, pid: 46291] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:47.908Z, pid: 46291] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:47.915Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:47.916Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:52.922Z, pid: 46293] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:52.938Z, pid: 46293] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:52.944Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:52.946Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:19:57.953Z, pid: 46341] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:57.967Z, pid: 46341] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:19:57.973Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:19:57.975Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:02.982Z, pid: 46360] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:02.996Z, pid: 46360] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:03.003Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:03.004Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:08.012Z, pid: 46365] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:08.026Z, pid: 46365] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:08.034Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:08.037Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:13.044Z, pid: 46370] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:13.058Z, pid: 46370] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:13.065Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:13.067Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:18.074Z, pid: 46376] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:18.093Z, pid: 46376] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:18.100Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:18.102Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:23.110Z, pid: 46391] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:23.137Z, pid: 46391] > /bin/python -m dvc --version - FAILED with code 1 (34ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:23.144Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:23.146Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:28.158Z, pid: 46393] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:28.178Z, pid: 46393] > /bin/python -m dvc --version - FAILED with code 1 (31ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:28.185Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:28.187Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:33.193Z, pid: 46397] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:33.207Z, pid: 46397] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:33.213Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:33.215Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:38.225Z, pid: 46409] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:38.244Z, pid: 46409] > /bin/python -m dvc --version - FAILED with code 1 (26ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:38.251Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:38.252Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:43.271Z, pid: 46426] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:43.292Z, pid: 46426] > /bin/python -m dvc --version - FAILED with code 1 (37ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:43.298Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:43.300Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:48.307Z, pid: 46429] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:48.327Z, pid: 46429] > /bin/python -m dvc --version - FAILED with code 1 (27ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:48.335Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:48.338Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:53.348Z, pid: 46431] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:53.376Z, pid: 46431] > /bin/python -m dvc --version - FAILED with code 1 (36ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:53.385Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:53.386Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:20:58.398Z, pid: 46437] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:58.432Z, pid: 46437] > /bin/python -m dvc --version - FAILED with code 1 (44ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:20:58.443Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:20:58.444Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:03.452Z, pid: 46453] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:03.468Z, pid: 46453] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:03.474Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:03.476Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:08.489Z, pid: 46456] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:08.521Z, pid: 46456] > /bin/python -m dvc --version - FAILED with code 1 (44ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:08.528Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:08.529Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:13.539Z, pid: 46459] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:13.556Z, pid: 46459] > /bin/python -m dvc --version - FAILED with code 1 (26ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:13.563Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:13.564Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:18.583Z, pid: 46461] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:18.605Z, pid: 46461] > /bin/python -m dvc --version - FAILED with code 1 (40ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:18.611Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:18.613Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:23.619Z, pid: 46484] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:23.633Z, pid: 46484] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:23.641Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:23.643Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:28.650Z, pid: 46495] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:28.665Z, pid: 46495] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:28.673Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:28.674Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:33.681Z, pid: 46505] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:33.697Z, pid: 46505] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:33.704Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:33.706Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:38.714Z, pid: 46560] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:38.737Z, pid: 46560] > /bin/python -m dvc --version - FAILED with code 1 (30ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:38.745Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:38.748Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:43.756Z, pid: 46607] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:43.781Z, pid: 46607] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:43.789Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:43.791Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:48.797Z, pid: 46609] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:48.811Z, pid: 46609] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:48.818Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:48.819Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:53.827Z, pid: 46627] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:53.848Z, pid: 46627] > /bin/python -m dvc --version - FAILED with code 1 (28ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:53.856Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:53.859Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:21:58.866Z, pid: 46651] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:58.882Z, pid: 46651] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:21:58.889Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:21:58.890Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:03.899Z, pid: 46654] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:03.921Z, pid: 46654] > /bin/python -m dvc --version - FAILED with code 1 (30ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:03.930Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:03.931Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:08.954Z, pid: 46707] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:08.996Z, pid: 46707] > /bin/python -m dvc --version - FAILED with code 1 (62ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:09.004Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:09.006Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:14.028Z, pid: 46709] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:14.069Z, pid: 46709] > /bin/python -m dvc --version - FAILED with code 1 (61ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:14.076Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:14.077Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:19.090Z, pid: 46759] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:19.122Z, pid: 46759] > /bin/python -m dvc --version - FAILED with code 1 (43ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:19.130Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:19.132Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:24.155Z, pid: 46762] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:24.193Z, pid: 46762] > /bin/python -m dvc --version - FAILED with code 1 (59ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:24.200Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:24.202Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:29.218Z, pid: 46786] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:29.256Z, pid: 46786] > /bin/python -m dvc --version - FAILED with code 1 (52ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:29.263Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:29.266Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:34.275Z, pid: 46795] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:34.289Z, pid: 46795] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:34.294Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:34.296Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:39.318Z, pid: 46798] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:39.359Z, pid: 46798] > /bin/python -m dvc --version - FAILED with code 1 (60ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:39.366Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:39.368Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:44.385Z, pid: 46801] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:44.398Z, pid: 46801] > /bin/python -m dvc --version - FAILED with code 1 (29ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:44.405Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:44.407Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:49.428Z, pid: 46803] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:49.469Z, pid: 46803] > /bin/python -m dvc --version - FAILED with code 1 (60ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:49.476Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:49.477Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:54.499Z, pid: 46805] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:54.539Z, pid: 46805] > /bin/python -m dvc --version - FAILED with code 1 (59ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:54.548Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:54.549Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:22:59.559Z, pid: 46807] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:59.573Z, pid: 46807] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:22:59.579Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:22:59.581Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:04.599Z, pid: 46811] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:04.626Z, pid: 46811] > /bin/python -m dvc --version - FAILED with code 1 (43ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:04.634Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:04.636Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:09.646Z, pid: 46817] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:09.672Z, pid: 46817] > /bin/python -m dvc --version - FAILED with code 1 (35ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:09.681Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:09.682Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:14.697Z, pid: 46820] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:14.711Z, pid: 46820] > /bin/python -m dvc --version - FAILED with code 1 (27ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:14.717Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:14.719Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:19.731Z, pid: 46822] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:19.751Z, pid: 46822] > /bin/python -m dvc --version - FAILED with code 1 (31ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:19.759Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:19.760Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:24.769Z, pid: 46824] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:24.784Z, pid: 46824] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:24.790Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:24.791Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:29.801Z, pid: 46826] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:29.815Z, pid: 46826] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:29.823Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:29.825Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:34.845Z, pid: 46830] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:34.871Z, pid: 46830] > /bin/python -m dvc --version - FAILED with code 1 (44ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:34.877Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:34.879Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:39.886Z, pid: 46834] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:39.899Z, pid: 46834] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:39.905Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:39.906Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:44.916Z, pid: 46836] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:44.941Z, pid: 46836] > /bin/python -m dvc --version - FAILED with code 1 (34ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:44.950Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:44.953Z, pid: 0] > dvc --version - FAILED (12ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:49.959Z, pid: 46843] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:49.973Z, pid: 46843] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:49.979Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:49.981Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:23:55.001Z, pid: 46846] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:55.026Z, pid: 46846] > /bin/python -m dvc --version - FAILED with code 1 (43ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:23:55.033Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:23:55.035Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:00.056Z, pid: 46853] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:00.080Z, pid: 46853] > /bin/python -m dvc --version - FAILED with code 1 (43ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:00.087Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:00.088Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:05.097Z, pid: 46858] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:05.120Z, pid: 46858] > /bin/python -m dvc --version - FAILED with code 1 (30ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:05.129Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:05.132Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:10.147Z, pid: 46915] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:10.192Z, pid: 46915] > /bin/python -m dvc --version - FAILED with code 1 (58ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:10.202Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:10.204Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:15.226Z, pid: 46944] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:15.271Z, pid: 46944] > /bin/python -m dvc --version - FAILED with code 1 (64ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:15.278Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:15.279Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:20.292Z, pid: 46948] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:20.324Z, pid: 46948] > /bin/python -m dvc --version - FAILED with code 1 (44ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:20.331Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:20.333Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:25.349Z, pid: 46950] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:25.386Z, pid: 46950] > /bin/python -m dvc --version - FAILED with code 1 (51ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:25.394Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:25.396Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:30.417Z, pid: 46952] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:30.458Z, pid: 46952] > /bin/python -m dvc --version - FAILED with code 1 (60ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:30.465Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:30.467Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:35.479Z, pid: 46954] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:35.509Z, pid: 46954] > /bin/python -m dvc --version - FAILED with code 1 (40ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:35.516Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:35.518Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:40.537Z, pid: 47008] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:40.556Z, pid: 47008] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:40.562Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:40.563Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:45.584Z, pid: 47010] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:45.621Z, pid: 47010] > /bin/python -m dvc --version - FAILED with code 1 (56ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:45.629Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:45.630Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:50.642Z, pid: 47012] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:50.674Z, pid: 47012] > /bin/python -m dvc --version - FAILED with code 1 (43ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:50.682Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:50.685Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:24:55.698Z, pid: 47015] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:55.730Z, pid: 47015] > /bin/python -m dvc --version - FAILED with code 1 (43ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:24:55.738Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:24:55.740Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:00.753Z, pid: 47017] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:00.782Z, pid: 47017] > /bin/python -m dvc --version - FAILED with code 1 (41ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:00.791Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:00.792Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:05.801Z, pid: 47102] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:05.814Z, pid: 47102] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:05.821Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:05.823Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:10.828Z, pid: 47130] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:10.842Z, pid: 47130] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:10.848Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:10.849Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:15.856Z, pid: 47137] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:15.869Z, pid: 47137] > /bin/python -m dvc --version - FAILED with code 1 (18ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:15.875Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:15.877Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:20.883Z, pid: 47154] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:20.897Z, pid: 47154] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:20.905Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:20.906Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:25.920Z, pid: 47169] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:25.941Z, pid: 47169] > /bin/python -m dvc --version - FAILED with code 1 (34ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:25.949Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:25.950Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:30.956Z, pid: 47173] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:30.969Z, pid: 47173] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:30.977Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:30.979Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:35.985Z, pid: 47275] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:35.999Z, pid: 47275] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:36.006Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:36.007Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:41.013Z, pid: 47311] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:41.027Z, pid: 47311] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:41.034Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:41.035Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:46.044Z, pid: 47318] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:46.058Z, pid: 47318] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:46.067Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:46.068Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:51.074Z, pid: 47321] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:51.088Z, pid: 47321] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:51.095Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:51.097Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:25:56.104Z, pid: 47326] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:56.117Z, pid: 47326] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:25:56.123Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:25:56.124Z, pid: 0] > dvc --version - FAILED (6ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:01.131Z, pid: 47330] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:01.149Z, pid: 47330] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:01.156Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:01.157Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:06.163Z, pid: 47358] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:06.177Z, pid: 47358] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:06.183Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:06.185Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:11.191Z, pid: 47362] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:11.205Z, pid: 47362] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:11.211Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:11.212Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:16.219Z, pid: 47454] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:16.233Z, pid: 47454] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:16.240Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:16.241Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:21.247Z, pid: 47469] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:21.260Z, pid: 47469] > /bin/python -m dvc --version - FAILED with code 1 (18ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:21.267Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:21.269Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:26.278Z, pid: 47487] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:26.309Z, pid: 47487] > /bin/python -m dvc --version - FAILED with code 1 (39ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:26.317Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:26.318Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:31.325Z, pid: 47491] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:31.344Z, pid: 47491] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:31.353Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:31.354Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:36.377Z, pid: 47494] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:36.415Z, pid: 47494] > /bin/python -m dvc --version - FAILED with code 1 (58ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:36.422Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:36.424Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:41.431Z, pid: 47581] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:41.444Z, pid: 47581] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:41.452Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:41.454Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:46.460Z, pid: 47598] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:46.474Z, pid: 47598] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:46.480Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:46.481Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:51.488Z, pid: 47622] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:51.503Z, pid: 47622] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:51.509Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:51.511Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:26:56.518Z, pid: 47626] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:56.533Z, pid: 47626] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:26:56.539Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:26:56.541Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:27:01.547Z, pid: 47631] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:01.563Z, pid: 47631] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:27:01.570Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:01.571Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:27:06.578Z, pid: 47644] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:06.591Z, pid: 47644] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:27:06.598Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:06.599Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:27:11.607Z, pid: 47661] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:11.626Z, pid: 47661] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:27:11.634Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:11.636Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:27:16.643Z, pid: 47663] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:16.657Z, pid: 47663] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:27:16.663Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:16.665Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:27:21.672Z, pid: 47685] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:21.691Z, pid: 47685] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:27:21.697Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:21.698Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:27:26.705Z, pid: 47687] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:26.720Z, pid: 47687] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:27:26.726Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:26.728Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:27:31.735Z, pid: 47691] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:31.748Z, pid: 47691] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:27:31.756Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:31.759Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.12, 2023-07-05T18:27:36.765Z, pid: 47710] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:36.779Z, pid: 47710] > /bin/python -m dvc --version - FAILED with code 1 (19ms)
+/bin/python: No module named dvc
+
+[version: 1.0.12, 2023-07-05T18:27:36.785Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.12, 2023-07-05T18:27:36.786Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT

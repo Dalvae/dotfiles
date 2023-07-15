@@ -1,0 +1,55 @@
+2023-07-14 19:33:33.964 [info] Extension host with pid 37223 started
+2023-07-14 19:33:33.964 [info] Skipping acquiring lock for /home/diego/.config/Code/User/workspaceStorage/10586d3f8895f48e5c6a4c5505008184.
+2023-07-14 19:33:34.150 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-14 19:33:34.192 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-14 19:33:34.194 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-07-14 19:33:34.216 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-07-14 19:33:34.221 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2023-07-14 19:33:34.223 [info] ExtensionService#_doActivateExtension WallabyJs.quokka-vscode, startup: true, activationEvent: '*'
+2023-07-14 19:33:34.320 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-14 19:33:34.336 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-14 19:33:34.412 [info] Eager extensions activated
+2023-07-14 19:33:34.459 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-14 19:33:34.460 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-14 19:33:34.465 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-07-14 19:33:34.494 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-07-14 19:33:34.521 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2023-07-14 19:33:34.540 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-07-14 19:33:34.554 [info] ExtensionService#_doActivateExtension iterative.dvc, startup: false, activationEvent: 'onStartupFinished'
+2023-07-14 19:33:34.584 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-07-14 19:33:34.799 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-07-14 19:33:34.825 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: iterative.dvc
+2023-07-14 19:33:35.272 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2023-07-14 19:33:35.414 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-07-14 19:33:36.383 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-14 19:33:36.395 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-14 19:51:21.722 [warning] TextEditor is closed/disposed
+2023-07-14 19:54:27.543 [warning] TextEditor is closed/disposed
+2023-07-14 20:05:23.625 [error] Error: 'github' authentication is required for this operation
+	at GitHubGitProvider.r (/home/diego/.vscode/extensions/eamodio.gitlens-14.1.0/dist/feature-github.js:1:86343)
+2023-07-14 20:05:48.579 [warning] TextEditor is closed/disposed
+2023-07-14 20:07:44.053 [warning] TextEditor is closed/disposed
+2023-07-14 20:08:55.503 [warning] TextEditor is closed/disposed
+2023-07-14 20:09:08.563 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-07-14 20:11:10.822 [warning] TextEditor is closed/disposed
+2023-07-14 20:11:13.853 [warning] TextEditor is closed/disposed
+2023-07-14 20:12:45.351 [warning] TextEditor is closed/disposed
+2023-07-14 20:14:45.190 [warning] TextEditor is closed/disposed
+2023-07-14 20:15:48.947 [warning] TextEditor is closed/disposed
+2023-07-14 20:15:53.030 [warning] TextEditor is closed/disposed
+2023-07-14 20:15:54.464 [warning] TextEditor is closed/disposed
+2023-07-14 20:19:04.845 [warning] TextEditor is closed/disposed
+2023-07-14 20:19:22.877 [warning] TextEditor is closed/disposed
+2023-07-14 20:19:47.878 [warning] TextEditor is closed/disposed
+2023-07-14 20:19:55.932 [warning] TextEditor is closed/disposed
+2023-07-14 20:25:47.072 [warning] TextEditor is closed/disposed
+2023-07-14 20:29:09.392 [warning] TextEditor is closed/disposed
+2023-07-14 20:29:56.582 [warning] TextEditor is closed/disposed
+2023-07-14 20:32:45.851 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2023-07-14 20:32:45.861 [info] ExtensionService#_doActivateExtension KevinRose.vsc-python-indent, startup: false, activationEvent: 'onLanguage:python'
+2023-07-14 20:32:45.864 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-07-14 20:32:46.008 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2023-07-14 20:32:46.024 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2023-07-14 20:32:46.192 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2023-07-14 20:32:46.843 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-07-14 20:34:34.831 [warning] TextEditor is closed/disposed

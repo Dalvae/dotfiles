@@ -1,0 +1,6 @@
+2023-07-12 22:51:19.112 [info] update#setState idle
+2023-07-12 22:51:49.115 [info] update#setState checking for updates
+2023-07-12 22:51:49.119 [info] update#setState available for download
+2023-07-12 22:55:43.058 [error] [UtilityProcess type: shared-process, pid: 2997]: crashed with code 15 and reason 'killed'
+2023-07-12 22:55:43.061 [info] Extension host with pid 2987 exited with code: 15, signal: unknown.
+2023-07-12 22:55:43.062 [error] [UtilityProcess id: 1, type: extensionHost, pid: 2987]: crashed with code 15 and reason 'killed'

@@ -1,0 +1,10 @@
+[2023-07-14 23:33:34.789] [GIT  ] [/home/diego/projects] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [81ms]
+
+[2023-07-15 00:05:05.045] getLocalWorkspaceData
+EntryNotFound (FileSystemError): Unable to read file '/home/diego/.gitkraken/workspaces/workspaces.json' (Error: Unable to resolve nonexistent file '/home/diego/.gitkraken/workspaces/workspaces.json')
+[2023-07-15 00:07:44.125] [GIT  ] [/home/diego/projects/dotfiles/.git] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • this operation must be run in a work tree [7ms]
+
+[2023-07-15 00:11:11.759] /home/diego/.vscode/extensions/eamodio.gitlens-14.1.0/dist/gitlens.js:1:296499
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 2,2:acpi alacritty alsa-utils baobab base ba.ini
+fatal: There is no path acpi alacritty alsa-utils baobab base ba.ini in the commit
+

@@ -1,0 +1,98 @@
+2023-07-14 19:33:35.186 [warning] /home/diego/.ssh/config: ENOENT: no such file or directory, open '/home/diego/.ssh/config'
+2023-07-14 19:33:35.229 [info] Looking for git repository
+2023-07-14 19:33:35.229 [info] Found 0 repositories during activation
+2023-07-14 19:33:35.229 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-14 19:33:35.234 [info] Registering git provider
+2023-07-14 19:33:35.234 [info] Review> Validate state in progress
+2023-07-14 19:33:35.234 [info] Review> Validating state...
+2023-07-14 19:33:35.261 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 19:33:35.498 [info] Repo state for file:///home/diego/projects/dotfiles changed.
+2023-07-14 19:33:35.498 [info] Repo file:///home/diego/projects/dotfiles has already been setup.
+2023-07-14 19:33:35.498 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 19:33:35.498 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:05:22.623 [info] Review> Validate state in progress
+2023-07-14 20:05:22.623 [info] Review> Validating state...
+2023-07-14 20:05:22.659 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:05:22.683 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:05:22.697 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:05:23.220 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:05:23.289 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:05:24.252 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:07:06.268 [info] Review> Validate state in progress
+2023-07-14 20:07:06.268 [info] Review> Validating state...
+2023-07-14 20:07:06.331 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:07:06.376 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:07:07.273 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:07:30.176 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"availableCompareRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"defaultBaseRemote":{"owner":"Keyitdev","repositoryName":"dotfiles"},"defaultBaseBranch":"v3","defaultCompareRemote":{"owner":"Dalvae","repositoryName":"dotfiles"},"defaultCompareBranch":"v3","branchesForRemote":["v3"],"branchesForCompare":["v3"],"defaultTitle":"V3","defaultDescription":"","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":false,"squash":false,"rebase":false},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true}
+2023-07-14 20:11:03.153 [info] Review> Validate state in progress
+2023-07-14 20:11:03.153 [info] Review> Validating state...
+2023-07-14 20:11:03.185 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:11:03.261 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:11:04.224 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:12:15.347 [info] Review> Validate state in progress
+2023-07-14 20:12:15.347 [info] Review> Validating state...
+2023-07-14 20:12:15.388 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:12:15.426 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:12:16.347 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:12:19.042 [info] Review> Validate state in progress
+2023-07-14 20:12:19.042 [info] Review> Validating state...
+2023-07-14 20:12:19.066 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:12:19.155 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:12:20.040 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:24:43.051 [info] Review> Validate state in progress
+2023-07-14 20:24:43.051 [info] Review> Validating state...
+2023-07-14 20:24:43.116 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:24:43.178 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:24:43.750 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"availableCompareRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"defaultBaseRemote":{"owner":"Keyitdev","repositoryName":"dotfiles"},"defaultBaseBranch":"v3","defaultCompareRemote":{"owner":"Dalvae","repositoryName":"dotfiles"},"defaultCompareBranch":"v3","branchesForRemote":["v3"],"branchesForCompare":["v3"],"defaultTitle":"Change theme Zsh and some alias.","defaultDescription":"","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":false,"squash":false,"rebase":false},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true}
+2023-07-14 20:24:44.111 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:25:06.457 [info] Review> Validate state in progress
+2023-07-14 20:25:06.458 [info] Review> Validating state...
+2023-07-14 20:25:06.522 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:25:06.632 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:25:07.144 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"availableCompareRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"defaultBaseRemote":{"owner":"Keyitdev","repositoryName":"dotfiles"},"defaultBaseBranch":"v3","defaultCompareRemote":{"owner":"Dalvae","repositoryName":"dotfiles"},"defaultCompareBranch":"v3","branchesForRemote":["v3"],"branchesForCompare":["v3"],"defaultTitle":"Change background compatibility","defaultDescription":"","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":false,"squash":false,"rebase":false},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true}
+2023-07-14 20:25:07.535 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:25:09.868 [info] Review> Validate state in progress
+2023-07-14 20:25:09.868 [info] Review> Validating state...
+2023-07-14 20:25:09.883 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:25:09.971 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:25:10.907 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:26:47.224 [info] Review> Validate state in progress
+2023-07-14 20:26:47.224 [info] Review> Validating state...
+2023-07-14 20:26:47.297 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:26:47.343 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:26:47.971 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"availableCompareRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"defaultBaseRemote":{"owner":"Keyitdev","repositoryName":"dotfiles"},"defaultBaseBranch":"v3","defaultCompareRemote":{"owner":"Dalvae","repositoryName":"dotfiles"},"defaultCompareBranch":"v3","branchesForRemote":["v3"],"branchesForCompare":["v3"],"defaultTitle":"Change fonts, colors","defaultDescription":"","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":false,"squash":false,"rebase":false},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true}
+2023-07-14 20:26:48.312 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:26:50.458 [info] Review> Validate state in progress
+2023-07-14 20:26:50.458 [info] Review> Validating state...
+2023-07-14 20:26:50.471 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:26:50.549 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:26:51.441 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:33:20.099 [info] Review> Validate state in progress
+2023-07-14 20:33:20.099 [info] Review> Validating state...
+2023-07-14 20:33:20.184 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:33:20.231 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:33:20.772 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"availableCompareRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"defaultBaseRemote":{"owner":"Keyitdev","repositoryName":"dotfiles"},"defaultBaseBranch":"v3","defaultCompareRemote":{"owner":"Dalvae","repositoryName":"dotfiles"},"defaultCompareBranch":"v3","branchesForRemote":["v3"],"branchesForCompare":["v3"],"defaultTitle":"added polyabar weather WIP","defaultDescription":"","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":false,"squash":false,"rebase":false},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true}
+2023-07-14 20:33:21.117 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:33:32.333 [info] Review> Validate state in progress
+2023-07-14 20:33:32.333 [info] Review> Validating state...
+2023-07-14 20:33:32.410 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:33:32.473 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:33:33.006 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"availableCompareRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"defaultBaseRemote":{"owner":"Keyitdev","repositoryName":"dotfiles"},"defaultBaseBranch":"v3","defaultCompareRemote":{"owner":"Dalvae","repositoryName":"dotfiles"},"defaultCompareBranch":"v3","branchesForRemote":["v3"],"branchesForCompare":["v3"],"defaultTitle":"added zathura theme","defaultDescription":"","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":false,"squash":false,"rebase":false},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true}
+2023-07-14 20:33:33.422 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:33:48.961 [info] Review> Validate state in progress
+2023-07-14 20:33:48.961 [info] Review> Validating state...
+2023-07-14 20:33:49.050 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:33:49.098 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:33:49.531 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"availableCompareRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"defaultBaseRemote":{"owner":"Keyitdev","repositoryName":"dotfiles"},"defaultBaseBranch":"v3","defaultCompareRemote":{"owner":"Dalvae","repositoryName":"dotfiles"},"defaultCompareBranch":"v3","branchesForRemote":["v3"],"branchesForCompare":["v3"],"defaultTitle":"Picom transparency","defaultDescription":"","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":false,"squash":false,"rebase":false},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true}
+2023-07-14 20:33:50.035 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:34:12.754 [info] Review> Validate state in progress
+2023-07-14 20:34:12.754 [info] Review> Validating state...
+2023-07-14 20:34:12.833 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:34:12.889 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:34:13.491 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"availableCompareRemotes":[{"owner":"Dalvae","repositoryName":"dotfiles"},{"owner":"Keyitdev","repositoryName":"dotfiles"}],"defaultBaseRemote":{"owner":"Keyitdev","repositoryName":"dotfiles"},"defaultBaseBranch":"v3","defaultCompareRemote":{"owner":"Dalvae","repositoryName":"dotfiles"},"defaultCompareBranch":"v3","branchesForRemote":["v3"],"branchesForCompare":["v3"],"defaultTitle":"added calibre config","defaultDescription":"","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":false,"squash":false,"rebase":false},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true}
+2023-07-14 20:34:13.842 [info] Review> No matching pull request metadata found on GitHub for current branch v3
+2023-07-14 20:34:16.817 [info] Review> Validate state in progress
+2023-07-14 20:34:16.817 [info] Review> Validating state...
+2023-07-14 20:34:16.851 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 20:34:16.933 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 20:34:17.897 [info] Review> No matching pull request metadata found on GitHub for current branch v3

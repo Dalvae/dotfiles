@@ -1,0 +1,1352 @@
+[version: 1.0.18, 2023-07-15T00:25:46.277Z, pid: 44774] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:46.294Z, pid: 44774] > /bin/python -m dvc root - FAILED with code 1 (26ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:25:46.306Z, pid: 44776] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:46.317Z, pid: 44777] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:46.320Z, pid: 44776] > git rev-parse --show-toplevel - FAILED with code 128 (23ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:25:46.333Z, pid: 44777] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:25:46.342Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:46.345Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:25:46.357Z, pid: 44780] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:46.362Z, pid: 44780] > git rev-parse --show-toplevel - FAILED with code 128 (14ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:25:46.371Z, pid: 44781] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:46.388Z, pid: 44781] > git rev-parse --show-toplevel - FAILED with code 128 (25ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:25:51.380Z, pid: 44879] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:51.416Z, pid: 44879] > /bin/python -m dvc --version - FAILED with code 1 (65ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:25:51.426Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:51.428Z, pid: 0] > dvc --version - FAILED (12ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:25:56.452Z, pid: 44883] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:56.466Z, pid: 44883] > /bin/python -m dvc --version - FAILED with code 1 (36ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:25:56.475Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:25:56.476Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:01.499Z, pid: 44890] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:01.513Z, pid: 44890] > /bin/python -m dvc --version - FAILED with code 1 (35ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:01.523Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:01.524Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:06.537Z, pid: 44894] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:06.552Z, pid: 44894] > /bin/python -m dvc --version - FAILED with code 1 (26ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:06.562Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:06.563Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:11.576Z, pid: 44974] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:11.591Z, pid: 44974] > /bin/python -m dvc --version - FAILED with code 1 (26ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:11.598Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:11.599Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:16.607Z, pid: 44983] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:16.621Z, pid: 44983] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:16.628Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:16.630Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:21.651Z, pid: 44990] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:21.665Z, pid: 44990] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:21.672Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:21.675Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:26.700Z, pid: 45001] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:26.742Z, pid: 45001] > /bin/python -m dvc --version - FAILED with code 1 (65ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:26.751Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:26.753Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:31.779Z, pid: 45013] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:31.819Z, pid: 45013] > /bin/python -m dvc --version - FAILED with code 1 (63ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:31.829Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:31.832Z, pid: 0] > dvc --version - FAILED (12ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:36.842Z, pid: 45027] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:36.858Z, pid: 45027] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:36.866Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:36.867Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:41.879Z, pid: 45056] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:41.893Z, pid: 45056] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:41.900Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:41.901Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:46.908Z, pid: 45100] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:46.923Z, pid: 45100] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:46.931Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:46.932Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:51.942Z, pid: 45393] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:51.956Z, pid: 45393] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:51.967Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:51.970Z, pid: 0] > dvc --version - FAILED (13ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:26:56.981Z, pid: 45410] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:56.994Z, pid: 45410] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:26:57.002Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:26:57.003Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:02.015Z, pid: 45418] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:02.028Z, pid: 45418] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:02.035Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:02.037Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:07.058Z, pid: 45426] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:07.071Z, pid: 45426] > /bin/python -m dvc --version - FAILED with code 1 (31ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:07.079Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:07.080Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:12.092Z, pid: 45430] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:12.106Z, pid: 45430] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:12.113Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:12.115Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:17.127Z, pid: 45435] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:17.141Z, pid: 45435] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:17.149Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:17.150Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:22.159Z, pid: 45444] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:22.172Z, pid: 45444] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:22.180Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:22.181Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:27.189Z, pid: 45480] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:27.203Z, pid: 45480] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:27.210Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:27.212Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:32.237Z, pid: 45487] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:32.257Z, pid: 45487] > /bin/python -m dvc --version - FAILED with code 1 (43ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:32.264Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:32.265Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:37.273Z, pid: 45498] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:37.287Z, pid: 45498] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:37.295Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:37.297Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:42.317Z, pid: 45507] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:42.331Z, pid: 45507] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:42.338Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:42.340Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:47.353Z, pid: 45511] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:47.366Z, pid: 45511] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:47.373Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:47.374Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:52.384Z, pid: 45520] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:52.398Z, pid: 45520] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:52.406Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:52.407Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:27:57.427Z, pid: 45526] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:57.440Z, pid: 45526] > /bin/python -m dvc --version - FAILED with code 1 (31ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:27:57.447Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:27:57.448Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:02.460Z, pid: 45533] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:02.475Z, pid: 45533] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:02.482Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:02.483Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:07.495Z, pid: 45538] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:07.509Z, pid: 45538] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:07.516Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:07.517Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:12.527Z, pid: 45544] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:12.541Z, pid: 45544] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:12.548Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:12.550Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:17.560Z, pid: 45548] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:17.574Z, pid: 45548] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:17.581Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:17.582Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:22.594Z, pid: 45554] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:22.608Z, pid: 45554] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:22.615Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:22.616Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:27.643Z, pid: 45570] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:27.682Z, pid: 45570] > /bin/python -m dvc --version - FAILED with code 1 (64ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:27.691Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:27.692Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:32.703Z, pid: 45579] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:32.717Z, pid: 45579] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:32.725Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:32.726Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:37.737Z, pid: 45587] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:37.751Z, pid: 45587] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:37.758Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:37.759Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:42.770Z, pid: 45598] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:42.785Z, pid: 45598] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:42.792Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:42.793Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:47.804Z, pid: 45602] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:47.818Z, pid: 45602] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:47.825Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:47.826Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:52.838Z, pid: 45636] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:52.852Z, pid: 45636] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:52.859Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:52.861Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:28:57.880Z, pid: 45653] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:57.894Z, pid: 45653] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:28:57.901Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:28:57.902Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:02.922Z, pid: 45658] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:02.938Z, pid: 45658] > /bin/python -m dvc --version - FAILED with code 1 (35ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:02.946Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:02.947Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:07.957Z, pid: 45675] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:07.972Z, pid: 45675] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:07.980Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:07.981Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:12.993Z, pid: 45689] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:13.007Z, pid: 45689] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:13.015Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:13.016Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:18.027Z, pid: 45696] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:18.042Z, pid: 45696] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:18.049Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:18.050Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:23.057Z, pid: 45700] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:23.071Z, pid: 45700] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:23.078Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:23.079Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:28.090Z, pid: 45705] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:28.105Z, pid: 45705] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:28.112Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:28.113Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:33.120Z, pid: 45722] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:33.134Z, pid: 45722] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:33.141Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:33.143Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:38.169Z, pid: 45813] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:38.210Z, pid: 45813] > /bin/python -m dvc --version - FAILED with code 1 (65ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:38.221Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:38.223Z, pid: 0] > dvc --version - FAILED (12ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:43.232Z, pid: 45819] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:43.246Z, pid: 45819] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:43.253Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:43.254Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:48.266Z, pid: 45828] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:48.280Z, pid: 45828] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:48.287Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:48.289Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:53.296Z, pid: 45844] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:53.310Z, pid: 45844] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:53.318Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:53.320Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:29:58.345Z, pid: 45857] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:58.384Z, pid: 45857] > /bin/python -m dvc --version - FAILED with code 1 (63ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:29:58.392Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:29:58.394Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:03.404Z, pid: 45861] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:03.419Z, pid: 45861] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:03.427Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:03.428Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:08.448Z, pid: 45865] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:08.462Z, pid: 45865] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:08.470Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:08.471Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:13.482Z, pid: 45869] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:13.495Z, pid: 45869] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:13.503Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:13.504Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:18.515Z, pid: 45873] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:18.531Z, pid: 45873] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:18.539Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:18.540Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:23.551Z, pid: 45877] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:23.564Z, pid: 45877] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:23.571Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:23.572Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:28.585Z, pid: 45882] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:28.599Z, pid: 45882] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:28.608Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:28.610Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:33.621Z, pid: 45888] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:33.634Z, pid: 45888] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:33.641Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:33.642Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:38.671Z, pid: 45911] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:38.709Z, pid: 45911] > /bin/python -m dvc --version - FAILED with code 1 (64ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:38.718Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:38.720Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:43.731Z, pid: 45961] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:43.744Z, pid: 45961] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:43.751Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:43.753Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:48.779Z, pid: 46003] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:48.818Z, pid: 46003] > /bin/python -m dvc --version - FAILED with code 1 (64ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:48.827Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:48.828Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:53.840Z, pid: 46043] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:53.853Z, pid: 46043] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:53.860Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:53.861Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:30:58.887Z, pid: 46047] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:58.927Z, pid: 46047] > /bin/python -m dvc --version - FAILED with code 1 (63ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:30:58.935Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:30:58.937Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:03.944Z, pid: 46086] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:03.958Z, pid: 46086] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:03.965Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:03.966Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:08.977Z, pid: 46090] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:08.991Z, pid: 46090] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:08.998Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:08.999Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:14.010Z, pid: 46101] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:14.025Z, pid: 46101] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:14.033Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:14.034Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:19.046Z, pid: 46105] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:19.059Z, pid: 46105] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:19.066Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:19.068Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:24.078Z, pid: 46111] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:24.092Z, pid: 46111] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:24.099Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:24.101Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:29.112Z, pid: 46117] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:29.126Z, pid: 46117] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:29.133Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:29.134Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:34.145Z, pid: 46122] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:34.159Z, pid: 46122] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:34.166Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:34.168Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:39.179Z, pid: 46126] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:39.194Z, pid: 46126] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:39.201Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:39.203Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:44.215Z, pid: 46130] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:44.228Z, pid: 46130] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:44.235Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:44.236Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:49.248Z, pid: 46134] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:49.262Z, pid: 46134] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:49.269Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:49.270Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:53.021Z, pid: 46176] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.031Z, pid: 46177] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.040Z, pid: 46178] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.060Z, pid: 46176] > /bin/python -m dvc root - FAILED with code 1 (53ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:53.069Z, pid: 46180] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.076Z, pid: 46181] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.077Z, pid: 46177] > /bin/python -m dvc root - FAILED with code 1 (53ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:53.085Z, pid: 46182] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.092Z, pid: 46183] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.093Z, pid: 46178] > /bin/python -m dvc root - FAILED with code 1 (59ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:53.100Z, pid: 46184] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.107Z, pid: 46185] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.116Z, pid: 46180] > git rev-parse --show-toplevel - FAILED with code 128 (54ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:53.117Z, pid: 46181] > /bin/python -m dvc --version - FAILED with code 1 (47ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:53.124Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.125Z, pid: 46182] > git rev-parse --show-toplevel - FAILED with code 128 (47ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:53.126Z, pid: 46183] > /bin/python -m dvc --version - FAILED with code 1 (41ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:53.131Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.133Z, pid: 46184] > git rev-parse --show-toplevel - FAILED with code 128 (40ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:53.133Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:53.146Z, pid: 46194] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.147Z, pid: 0] > dvc --version - FAILED (30ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:53.158Z, pid: 46195] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.189Z, pid: 46185] > /bin/python -m dvc --version - FAILED with code 1 (88ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:53.196Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.197Z, pid: 46194] > git rev-parse --show-toplevel - FAILED with code 128 (63ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:53.198Z, pid: 46195] > git rev-parse --show-toplevel - FAILED with code 128 (50ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:53.198Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:53.206Z, pid: 46200] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.214Z, pid: 46201] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.221Z, pid: 46202] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.245Z, pid: 46200] > git rev-parse --show-toplevel - FAILED with code 128 (46ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:53.245Z, pid: 46201] > git rev-parse --show-toplevel - FAILED with code 128 (37ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:53.246Z, pid: 46202] > git rev-parse --show-toplevel - FAILED with code 128 (31ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:53.253Z, pid: 46205] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:53.290Z, pid: 46205] > git rev-parse --show-toplevel - FAILED with code 128 (44ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:31:54.283Z, pid: 46211] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:54.296Z, pid: 46211] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:54.303Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:54.305Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:31:59.332Z, pid: 46217] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:59.373Z, pid: 46217] > /bin/python -m dvc --version - FAILED with code 1 (66ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:31:59.382Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:31:59.384Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:04.395Z, pid: 46223] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:04.409Z, pid: 46223] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:04.416Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:04.418Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:09.428Z, pid: 46228] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:09.441Z, pid: 46228] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:09.448Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:09.449Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:14.456Z, pid: 46234] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:14.471Z, pid: 46234] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:14.478Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:14.479Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:19.504Z, pid: 46246] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:19.523Z, pid: 46246] > /bin/python -m dvc --version - FAILED with code 1 (42ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:19.530Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:19.532Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:24.551Z, pid: 46255] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:24.565Z, pid: 46255] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:24.572Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:24.574Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:29.598Z, pid: 46268] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:29.623Z, pid: 46268] > /bin/python -m dvc --version - FAILED with code 1 (47ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:29.631Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:29.632Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:34.652Z, pid: 46389] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:34.666Z, pid: 46389] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:34.673Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:34.674Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:39.685Z, pid: 46400] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:39.699Z, pid: 46400] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:39.706Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:39.708Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:44.728Z, pid: 46405] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:44.743Z, pid: 46405] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:44.750Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:44.751Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:49.771Z, pid: 46444] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:49.786Z, pid: 46444] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:49.793Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:49.795Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:54.814Z, pid: 46451] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:54.828Z, pid: 46451] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:54.835Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:54.836Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:32:59.860Z, pid: 46456] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:59.901Z, pid: 46456] > /bin/python -m dvc --version - FAILED with code 1 (64ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:32:59.909Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:32:59.911Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:04.919Z, pid: 46567] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:04.933Z, pid: 46567] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:04.940Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:04.941Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:09.953Z, pid: 46574] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:09.968Z, pid: 46574] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:09.980Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:09.982Z, pid: 0] > dvc --version - FAILED (14ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:14.993Z, pid: 46585] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:15.007Z, pid: 46585] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:15.014Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:15.015Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:20.037Z, pid: 46614] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:20.051Z, pid: 46614] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:20.060Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:20.062Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:25.075Z, pid: 46826] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:25.088Z, pid: 46826] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:25.095Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:25.097Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:30.109Z, pid: 46933] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:30.123Z, pid: 46933] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:30.130Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:30.131Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:35.152Z, pid: 47136] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:35.167Z, pid: 47136] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:35.174Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:35.175Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:40.201Z, pid: 47251] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:40.240Z, pid: 47251] > /bin/python -m dvc --version - FAILED with code 1 (63ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:40.248Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:40.250Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:45.276Z, pid: 47262] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:45.297Z, pid: 47262] > /bin/python -m dvc --version - FAILED with code 1 (45ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:45.305Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:45.307Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:50.315Z, pid: 47387] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:50.330Z, pid: 47387] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:50.338Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:50.339Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:33:55.351Z, pid: 47489] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:55.364Z, pid: 47489] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:33:55.371Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:33:55.372Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:00.383Z, pid: 47493] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:00.398Z, pid: 47493] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:00.405Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:00.406Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:05.417Z, pid: 47603] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:05.431Z, pid: 47603] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:05.438Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:05.439Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:10.451Z, pid: 47610] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:10.465Z, pid: 47610] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:10.472Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:10.473Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:15.492Z, pid: 47756] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:15.506Z, pid: 47756] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:15.513Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:15.514Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:20.540Z, pid: 47968] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:20.553Z, pid: 47968] > /bin/python -m dvc --version - FAILED with code 1 (37ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:20.561Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:20.562Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:25.573Z, pid: 47972] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:25.587Z, pid: 47972] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:25.595Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:25.596Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:30.614Z, pid: 47983] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:30.627Z, pid: 47983] > /bin/python -m dvc --version - FAILED with code 1 (29ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:30.635Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:30.636Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:35.644Z, pid: 47996] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:35.658Z, pid: 47996] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:35.665Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:35.666Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:40.677Z, pid: 48001] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:40.691Z, pid: 48001] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:40.698Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:40.699Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:45.712Z, pid: 48006] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:45.726Z, pid: 48006] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:45.733Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:45.734Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:50.741Z, pid: 48010] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:50.755Z, pid: 48010] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:50.762Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:50.763Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:53.691Z, pid: 48050] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.701Z, pid: 48051] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.710Z, pid: 48052] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.720Z, pid: 48050] > /bin/python -m dvc root - FAILED with code 1 (37ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:53.728Z, pid: 48054] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.734Z, pid: 48055] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.735Z, pid: 48051] > /bin/python -m dvc root - FAILED with code 1 (41ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:53.743Z, pid: 48056] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.750Z, pid: 48057] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.763Z, pid: 48052] > /bin/python -m dvc root - FAILED with code 1 (60ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:53.771Z, pid: 48058] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.779Z, pid: 48059] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.780Z, pid: 48054] > git rev-parse --show-toplevel - FAILED with code 128 (59ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:53.781Z, pid: 48055] > /bin/python -m dvc --version - FAILED with code 1 (53ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:53.788Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.789Z, pid: 48056] > git rev-parse --show-toplevel - FAILED with code 128 (53ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:53.790Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:53.798Z, pid: 48061] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.825Z, pid: 48057] > /bin/python -m dvc --version - FAILED with code 1 (81ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:53.832Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.833Z, pid: 48058] > git rev-parse --show-toplevel - FAILED with code 128 (69ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:53.834Z, pid: 48059] > /bin/python -m dvc --version - FAILED with code 1 (61ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:53.841Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.842Z, pid: 48061] > git rev-parse --show-toplevel - FAILED with code 128 (51ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:53.842Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:53.849Z, pid: 48067] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.850Z, pid: 0] > dvc --version - FAILED (25ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:34:53.857Z, pid: 48068] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.864Z, pid: 48069] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.884Z, pid: 48067] > git rev-parse --show-toplevel - FAILED with code 128 (41ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:53.884Z, pid: 48068] > git rev-parse --show-toplevel - FAILED with code 128 (33ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:53.884Z, pid: 48069] > git rev-parse --show-toplevel - FAILED with code 128 (26ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:53.892Z, pid: 48072] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.915Z, pid: 48074] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:53.950Z, pid: 48072] > git rev-parse --show-toplevel - FAILED with code 128 (65ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:53.950Z, pid: 48074] > git rev-parse --show-toplevel - FAILED with code 128 (45ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:34:55.770Z, pid: 48081] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:55.784Z, pid: 48081] > /bin/python -m dvc --version - FAILED with code 1 (20ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:34:55.792Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:34:55.793Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:00.804Z, pid: 48085] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:00.818Z, pid: 48085] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:00.825Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:00.826Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:05.846Z, pid: 48090] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:05.860Z, pid: 48090] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:05.867Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:05.868Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:10.876Z, pid: 48096] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:10.890Z, pid: 48096] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:10.897Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:10.898Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:15.910Z, pid: 48107] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:15.925Z, pid: 48107] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:15.932Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:15.933Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:20.944Z, pid: 48111] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:20.957Z, pid: 48111] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:20.964Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:20.965Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:25.978Z, pid: 48121] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:25.992Z, pid: 48121] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:25.999Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:26.001Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:31.013Z, pid: 48127] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:31.027Z, pid: 48127] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:31.034Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:31.036Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:36.047Z, pid: 48141] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:36.063Z, pid: 48141] > /bin/python -m dvc --version - FAILED with code 1 (26ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:36.071Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:36.072Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:41.083Z, pid: 48146] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:41.096Z, pid: 48146] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:41.103Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:41.104Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:46.116Z, pid: 48164] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:46.131Z, pid: 48164] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:46.139Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:46.141Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:51.152Z, pid: 48171] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:51.166Z, pid: 48171] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:51.173Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:51.174Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:35:56.194Z, pid: 48175] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:56.208Z, pid: 48175] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:35:56.215Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:35:56.216Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:01.227Z, pid: 48179] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:01.241Z, pid: 48179] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:01.248Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:01.249Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:06.261Z, pid: 48191] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:06.275Z, pid: 48191] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:06.282Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:06.284Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:11.295Z, pid: 48203] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:11.308Z, pid: 48203] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:11.315Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:11.316Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:16.329Z, pid: 48211] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:16.343Z, pid: 48211] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:16.350Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:16.351Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:21.374Z, pid: 48220] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:21.387Z, pid: 48220] > /bin/python -m dvc --version - FAILED with code 1 (31ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:21.394Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:21.395Z, pid: 0] > dvc --version - FAILED (7ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:26.416Z, pid: 48226] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:26.430Z, pid: 48226] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:26.437Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:26.439Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:31.452Z, pid: 48235] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:31.465Z, pid: 48235] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:31.473Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:31.474Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:36.485Z, pid: 48244] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:36.499Z, pid: 48244] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:36.506Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:36.507Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:41.519Z, pid: 48251] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:41.532Z, pid: 48251] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:41.540Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:41.541Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:46.566Z, pid: 48259] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:46.606Z, pid: 48259] > /bin/python -m dvc --version - FAILED with code 1 (64ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:46.615Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:46.616Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:51.644Z, pid: 48273] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:51.682Z, pid: 48273] > /bin/python -m dvc --version - FAILED with code 1 (65ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:51.691Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:51.692Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:36:56.704Z, pid: 48281] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:56.717Z, pid: 48281] > /bin/python -m dvc --version - FAILED with code 1 (23ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:36:56.725Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:36:56.726Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:01.738Z, pid: 48291] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:01.776Z, pid: 48291] > /bin/python -m dvc --version - FAILED with code 1 (49ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:01.785Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:01.786Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:06.801Z, pid: 48296] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:06.815Z, pid: 48296] > /bin/python -m dvc --version - FAILED with code 1 (24ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:06.823Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:06.824Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:11.833Z, pid: 48300] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:11.846Z, pid: 48300] > /bin/python -m dvc --version - FAILED with code 1 (22ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:11.855Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:11.856Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:16.882Z, pid: 48305] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:16.921Z, pid: 48305] > /bin/python -m dvc --version - FAILED with code 1 (64ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:16.930Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:16.931Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:21.944Z, pid: 48311] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:21.959Z, pid: 48311] > /bin/python -m dvc --version - FAILED with code 1 (25ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:21.967Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:21.968Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:26.994Z, pid: 48318] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:27.035Z, pid: 48318] > /bin/python -m dvc --version - FAILED with code 1 (65ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:27.043Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:27.046Z, pid: 0] > dvc --version - FAILED (11ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:32.069Z, pid: 48325] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:32.083Z, pid: 48325] > /bin/python -m dvc --version - FAILED with code 1 (36ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:32.090Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:32.091Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:37.113Z, pid: 48329] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:37.126Z, pid: 48329] > /bin/python -m dvc --version - FAILED with code 1 (32ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:37.134Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:37.135Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:42.156Z, pid: 48333] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:42.170Z, pid: 48333] > /bin/python -m dvc --version - FAILED with code 1 (33ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:42.179Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:42.180Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:47.188Z, pid: 48459] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:47.202Z, pid: 48459] > /bin/python -m dvc --version - FAILED with code 1 (21ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:47.209Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:47.210Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:52.236Z, pid: 48467] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:52.277Z, pid: 48467] > /bin/python -m dvc --version - FAILED with code 1 (65ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:52.286Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:52.287Z, pid: 0] > dvc --version - FAILED (10ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:54.490Z, pid: 48506] > /bin/python -m dvc root - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:54.533Z, pid: 48506] > /bin/python -m dvc root - FAILED with code 1 (67ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:54.541Z, pid: 48508] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:54.547Z, pid: 48509] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:54.549Z, pid: 48508] > git rev-parse --show-toplevel - FAILED with code 128 (15ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:37:54.568Z, pid: 48509] > /bin/python -m dvc --version - FAILED with code 1 (27ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:54.575Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:54.576Z, pid: 0] > dvc --version - FAILED (8ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT
+[version: 1.0.18, 2023-07-15T00:37:54.585Z, pid: 48514] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:54.587Z, pid: 48514] > git rev-parse --show-toplevel - FAILED with code 128 (9ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:37:54.596Z, pid: 48515] > git rev-parse --show-toplevel - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:54.607Z, pid: 48515] > git rev-parse --show-toplevel - FAILED with code 128 (19ms)
+fatal: not a git repository (or any of the parent directories): .git
+
+[version: 1.0.18, 2023-07-15T00:37:57.313Z, pid: 48521] > /bin/python -m dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:57.352Z, pid: 48521] > /bin/python -m dvc --version - FAILED with code 1 (64ms)
+/bin/python: No module named dvc.__main__; 'dvc' is a package and cannot be directly executed
+
+[version: 1.0.18, 2023-07-15T00:37:57.361Z, pid: 0] > dvc --version - INITIALIZED
+[version: 1.0.18, 2023-07-15T00:37:57.362Z, pid: 0] > dvc --version - FAILED (9ms)
+Command failed with ENOENT: dvc --version
+spawn dvc ENOENT

@@ -1,0 +1,37 @@
+2023-07-14 19:33:35.216 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-14 19:33:35.217 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-14 19:33:35.217 [info] Experiment 'pythonTestAdaptercf' is active
+2023-07-14 19:33:35.217 [info] Test server listening.
+2023-07-14 19:33:35.217 [info] Python interpreter path: /bin/python
+2023-07-14 19:33:35.221 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-14 19:33:35.221 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-14 19:33:36.475 [info] Starting Pylance language server.
+2023-07-14 20:32:46.683 [info] > conda info --json
+2023-07-14 20:32:46.895 [info] Found: /bin/python --> /bin/python3.11
+2023-07-14 20:32:46.907 [info] Found: /bin/python3 --> /bin/python3.11
+2023-07-14 20:32:46.907 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-07-14 20:32:46.939 [info] Found: /sbin/python --> /sbin/python3.11
+2023-07-14 20:32:46.939 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-07-14 20:32:46.939 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-07-14 20:32:46.946 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-07-14 20:32:46.946 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-07-14 20:32:46.946 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-07-14 20:32:46.976 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-07-14 20:32:46.977 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-07-14 20:32:46.977 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-07-14 20:32:46.996 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/interpreterInfo.py
+2023-07-14 20:32:47.015 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/interpreterInfo.py
+2023-07-14 20:32:47.042 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/interpreterInfo.py
+2023-07-14 20:32:47.063 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/interpreterInfo.py
+2023-07-14 20:32:47.103 [info] Found: /bin/python --> /bin/python3.11
+2023-07-14 20:32:47.103 [info] Found: /bin/python3 --> /bin/python3.11
+2023-07-14 20:32:47.103 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-07-14 20:32:47.127 [info] Found: /sbin/python --> /sbin/python3.11
+2023-07-14 20:32:47.127 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-07-14 20:32:47.127 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-07-14 20:32:47.134 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-07-14 20:32:47.135 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-07-14 20:32:47.135 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-07-14 20:32:47.187 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-07-14 20:32:47.187 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-07-14 20:32:47.187 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11

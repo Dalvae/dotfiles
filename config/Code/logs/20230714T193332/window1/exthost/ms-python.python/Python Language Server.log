@@ -1,0 +1,15 @@
+2023-07-14 19:33:36.446 [info] [Info  - 7:33:36 PM] (37374) Pylance language server 2023.7.20 (pyright 74d8f3c4) starting
+2023-07-14 19:33:36.457 [info] [Info  - 7:33:36 PM] (37374) Server root directory: /home/diego/.vscode/extensions/ms-python.vscode-pylance-2023.7.20/dist
+2023-07-14 19:33:36.459 [info] [Info  - 7:33:36 PM] (37374) Starting service instance "projects"
+2023-07-14 19:33:36.566 [info] [Info  - 7:33:36 PM] (37374) Setting pythonPath for service "projects": "/bin/python"
+2023-07-14 19:33:36.578 [info] [Warn  - 7:33:36 PM] (37374) stubPath /home/diego/projects/typings is not a valid directory.
+2023-07-14 19:33:36.590 [info] [Info  - 7:33:36 PM] (37374) Assuming Python version 3.11
+2023-07-14 19:33:36.670 [info] [Info  - 7:33:36 PM] (37374) No source files found.
+2023-07-14 19:33:36.862 [info] [Info  - 7:33:36 PM] (37374) Background analysis(1) root directory: /home/diego/.vscode/extensions/ms-python.vscode-pylance-2023.7.20/dist
+2023-07-14 19:33:36.864 [info] [Info  - 7:33:36 PM] (37374) Background analysis(1) started
+2023-07-14 20:27:29.921 [info] [Info  - 8:27:29 PM] (37374) Found 9 source files
+2023-07-14 20:32:46.894 [info] [Info  - 8:32:46 PM] (37374) Indexer background runner(2) root directory: /home/diego/.vscode/extensions/ms-python.vscode-pylance-2023.7.20/dist (index)
+2023-07-14 20:32:46.895 [info] [Info  - 8:32:46 PM] (37374) Indexing(2) started
+2023-07-14 20:32:46.896 [info] [Info  - 8:32:46 PM] (37374) scanned(2) 132 files over 1 exec env
+2023-07-14 20:32:47.753 [info] [Info  - 8:32:47 PM] (37374) indexed(2) 81 files over 1 exec env
+2023-07-14 20:32:47.765 [info] [Info  - 8:32:47 PM] (37374) Indexing finished(2).

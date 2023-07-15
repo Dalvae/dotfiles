@@ -1,0 +1,34 @@
+2023-07-05 14:11:58.398 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-07-05 14:11:59.354 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: blade
+2023-07-05 14:11:59.354 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: ejs
+2023-07-05 14:11:59.354 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: latte
+2023-07-05 14:11:59.355 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: tpl
+2023-07-05 14:11:59.355 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: twig
+2023-07-05 14:11:59.355 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: vue-html
+2023-07-05 14:11:59.355 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: jinja-html
+2023-07-05 14:11:59.355 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: erb
+2023-07-05 14:11:59.355 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: HTML (Eex)
+2023-07-05 14:11:59.356 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: volt
+2023-07-05 14:11:59.356 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: nunjucks
+2023-07-05 14:11:59.356 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: sass
+2023-07-05 14:11:59.356 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: svelte
+2023-07-05 14:12:01.801 [info] [perf] Render performance baseline is 30ms
+2023-07-05 14:13:17.002 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2023-07-05 14:13:17.146 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2023-07-05 14:13:28.067 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1 
+2023-07-05 14:13:28.072 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1 
+2023-07-05 14:13:28.421 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-07-05 14:13:31.349 [info] [perf] Render performance baseline is 30ms
+2023-07-05 14:13:34.009 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: blade
+2023-07-05 14:13:34.009 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: ejs
+2023-07-05 14:13:34.009 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: latte
+2023-07-05 14:13:34.009 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: tpl
+2023-07-05 14:13:34.009 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: twig
+2023-07-05 14:13:34.010 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: vue-html
+2023-07-05 14:13:34.010 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: jinja-html
+2023-07-05 14:13:34.010 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: erb
+2023-07-05 14:13:34.010 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: HTML (Eex)
+2023-07-05 14:13:34.010 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: volt
+2023-07-05 14:13:34.010 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: nunjucks
+2023-07-05 14:13:34.010 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: sass
+2023-07-05 14:13:34.010 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: svelte

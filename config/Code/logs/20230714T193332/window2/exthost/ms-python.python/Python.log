@@ -1,0 +1,19 @@
+2023-07-14 20:13:24.178 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-14 20:13:24.178 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-14 20:13:24.178 [info] Experiment 'pythonTestAdaptercf' is active
+2023-07-14 20:13:24.178 [info] Test server listening.
+2023-07-14 20:13:24.213 [info] Python interpreter path: /bin/python
+2023-07-14 20:13:24.308 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-14 20:13:24.308 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-14 20:13:25.356 [info] Starting Pylance language server.
+2023-07-14 20:25:43.925 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-14 20:25:43.925 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-14 20:25:43.925 [info] Experiment 'pythonTestAdaptercf' is active
+2023-07-14 20:25:43.973 [info] Test server listening.
+2023-07-14 20:25:43.973 [info] Python interpreter path: /bin/python
+2023-07-14 20:25:44.201 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-14 20:25:44.201 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-14 20:25:44.201 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-14 20:25:44.201 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-14 20:25:44.201 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-14 20:25:46.239 [info] Starting Pylance language server.

@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "Lua.workspace.library": [
+        "/home/diego/.vscode/extensions/ketho.wow-api-0.9.14/EmmyLua/API",
+        "/home/diego/.vscode/extensions/ketho.wow-api-0.9.14/EmmyLua/Optional"
+    ],
+    "editor.fontFamily": "'Iosevka'",
+    "workbench.editorAssociations": {
+        "*.dll": "default"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "tabnine.experimentalAutoImports": true,
+    "git.autofetch": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.foldingStrategy": "indentation",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1
+}

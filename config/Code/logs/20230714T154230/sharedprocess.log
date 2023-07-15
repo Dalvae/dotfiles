@@ -1,0 +1,4 @@
+2023-07-14 15:42:32.531 [info] Deleted from disk eamodio.gitlens /home/diego/.vscode/extensions/eamodio.gitlens-14.0.1
+2023-07-14 15:42:32.532 [info] Deleted from disk iterative.dvc /home/diego/.vscode/extensions/iterative.dvc-1.0.17
+2023-07-14 16:13:40.880 [error] [uncaught exception in sharedProcess]: A system error occurred (read ECONNRESET): Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)

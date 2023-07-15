@@ -1,0 +1,9 @@
+2023-07-14 19:00:31.170 [info] update#setState idle
+2023-07-14 19:01:01.172 [info] update#setState checking for updates
+2023-07-14 19:01:01.184 [info] update#setState available for download
+2023-07-14 19:09:07.371 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-14 19:09:07.372 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 33054]: crashed with code 15 and reason 'killed'
+2023-07-14 19:09:07.394 [info] Extension host with pid 33074 exited with code: 0, signal: unknown.
+2023-07-14 19:33:27.587 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-14 19:33:27.587 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 33622]: crashed with code 15 and reason 'killed'
+2023-07-14 19:33:27.626 [info] Extension host with pid 33633 exited with code: 0, signal: unknown.

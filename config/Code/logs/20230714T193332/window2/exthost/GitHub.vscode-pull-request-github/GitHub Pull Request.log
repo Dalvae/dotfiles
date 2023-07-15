@@ -1,0 +1,69 @@
+2023-07-14 20:13:24.114 [warning] /home/diego/.ssh/config: ENOENT: no such file or directory, open '/home/diego/.ssh/config'
+2023-07-14 20:13:24.300 [info] Looking for git repository
+2023-07-14 20:13:24.300 [info] Found 0 repositories during activation
+2023-07-14 20:13:24.300 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-14 20:13:24.301 [info] Registering git provider
+2023-07-14 20:25:43.925 [warning] /home/diego/.ssh/config: ENOENT: no such file or directory, open '/home/diego/.ssh/config'
+2023-07-14 20:25:44.245 [info] Looking for git repository
+2023-07-14 20:25:44.246 [info] Found 0 repositories during activation
+2023-07-14 20:25:44.246 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-14 20:25:44.246 [info] Registering git provider
+2023-07-14 20:25:44.471 [info] Repository file:///home/diego/.config/nvim has been opened
+2023-07-14 20:25:44.471 [info] Review> Validate state in progress
+2023-07-14 20:25:44.471 [info] Review> Validating state...
+2023-07-14 20:25:44.471 [info] Cannot updates repositories as git is uninitialized
+2023-07-14 20:25:44.500 [info] Repository file:///home/diego/.config/nvim_1673446313 has been opened
+2023-07-14 20:25:44.500 [info] Review> Validate state in progress
+2023-07-14 20:25:44.500 [info] Review> Validating state...
+2023-07-14 20:25:44.500 [info] Cannot updates repositories as git is uninitialized
+2023-07-14 20:25:44.590 [info] Review> Validate state in progress
+2023-07-14 20:25:44.590 [info] Review> Validating state...
+2023-07-14 20:25:44.590 [info] Repo state for file:///home/diego/.config/nvim changed.
+2023-07-14 20:25:44.590 [info] Repo file:///home/diego/.config/nvim has already been setup.
+2023-07-14 20:25:44.590 [info] Cannot updates repositories as git is uninitialized
+2023-07-14 20:25:44.614 [info] Review> Validate state in progress
+2023-07-14 20:25:44.614 [info] Review> Validating state...
+2023-07-14 20:25:44.614 [info] Repo state for file:///home/diego/.config/nvim_1673446313 changed.
+2023-07-14 20:25:44.614 [info] Repo file:///home/diego/.config/nvim_1673446313 has already been setup.
+2023-07-14 20:25:44.614 [info] Cannot updates repositories as git is uninitialized
+2023-07-14 20:25:44.752 [info] Review> no matching pull request metadata found for current branch main
+2023-07-14 20:25:44.752 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-07-14 20:25:44.788 [info] Review> no matching pull request metadata found for current branch main
+2023-07-14 20:25:44.788 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-07-14 20:25:44.823 [info] Repository file:///home/diego/.config/zathura has been opened
+2023-07-14 20:25:44.823 [info] Review> Validate state in progress
+2023-07-14 20:25:44.823 [info] Review> Validating state...
+2023-07-14 20:25:44.823 [info] Cannot updates repositories as git is uninitialized
+2023-07-14 20:25:44.832 [info] Git initialization state changed: state=initialized
+2023-07-14 20:25:44.832 [info] Review> Validate state in progress
+2023-07-14 20:25:44.832 [info] Review> Validating state...
+2023-07-14 20:25:44.833 [info] Review> Queuing additional validate state
+2023-07-14 20:25:44.833 [info] Review> Queuing additional validate state
+2023-07-14 20:25:44.850 [info] Found GitHub remote for folder /home/diego/.config/nvim
+2023-07-14 20:25:44.878 [info] Review> Validating state...
+2023-07-14 20:25:44.885 [info] Found GitHub remote for folder /home/diego/.config/nvim_1673446313
+2023-07-14 20:25:44.915 [info] Review> Validating state...
+2023-07-14 20:25:44.919 [info] Review> Validate state in progress
+2023-07-14 20:25:44.919 [info] Review> Validating state...
+2023-07-14 20:25:44.919 [info] Repo state for file:///home/diego/.config/zathura changed.
+2023-07-14 20:25:44.919 [info] Repo file:///home/diego/.config/zathura has already been setup.
+2023-07-14 20:25:44.919 [info] Found GitHub remote for folder /home/diego/.config/zathura
+2023-07-14 20:25:45.525 [info] Review> no matching pull request metadata found for current branch main
+2023-07-14 20:25:45.539 [info] Found GitHub remote for folder /home/diego/.config/zathura
+2023-07-14 20:25:45.607 [info] Review> no matching pull request metadata found for current branch main
+2023-07-14 20:25:45.622 [info] Review> no matching pull request metadata found for current branch master
+2023-07-14 20:25:45.657 [info] Review> no matching pull request metadata found for current branch master
+2023-07-14 20:25:46.100 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-07-14 20:25:46.100 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-07-14 20:25:46.374 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-07-14 20:25:46.374 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-07-14 20:25:49.497 [info] Review> Validate state in progress
+2023-07-14 20:25:49.497 [info] Review> Validating state...
+2023-07-14 20:25:49.502 [info] Review> Validate state in progress
+2023-07-14 20:25:49.502 [info] Review> Validating state...
+2023-07-14 20:25:49.503 [info] Found GitHub remote for folder /home/diego/.config/nvim
+2023-07-14 20:25:49.575 [info] Found GitHub remote for folder /home/diego/.config/nvim_1673446313
+2023-07-14 20:25:49.748 [info] Review> no matching pull request metadata found for current branch main
+2023-07-14 20:25:49.757 [info] Review> no matching pull request metadata found for current branch main
+2023-07-14 20:25:50.415 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-07-14 20:25:50.415 [info] Review> No matching pull request metadata found on GitHub for current branch main

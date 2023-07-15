@@ -1,0 +1,17 @@
+2023-07-12 22:51:21.677 [warning] /home/diego/.ssh/config: ENOENT: no such file or directory, open '/home/diego/.ssh/config'
+2023-07-12 22:51:21.916 [info] Looking for git repository
+2023-07-12 22:51:21.916 [info] Found 0 repositories during activation
+2023-07-12 22:51:21.916 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-12 22:51:21.920 [info] Registering git provider
+2023-07-12 22:51:21.920 [info] Review> Validate state in progress
+2023-07-12 22:51:21.920 [info] Review> Validating state...
+2023-07-12 22:51:21.994 [info] Found GitHub remote for folder /home/diego/World of Warcraft 3.3.5a/niwotlk
+2023-07-12 22:51:22.049 [info] Repo state for file:///home/diego/World%20of%20Warcraft%203.3.5a/niwotlk changed.
+2023-07-12 22:51:22.049 [info] Repo file:///home/diego/World%20of%20Warcraft%203.3.5a/niwotlk has already been setup.
+2023-07-12 22:51:22.049 [info] Review> no matching pull request metadata found for current branch main
+2023-07-12 22:51:22.050 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-07-12 22:51:22.649 [info] Review> Validate state in progress
+2023-07-12 22:51:22.649 [info] Review> Validating state...
+2023-07-12 22:51:22.666 [info] Found GitHub remote for folder /home/diego/World of Warcraft 3.3.5a/niwotlk
+2023-07-12 22:51:22.734 [info] Review> no matching pull request metadata found for current branch main
+2023-07-12 22:51:22.734 [info] Review> No matching pull request metadata found on GitHub for current branch main

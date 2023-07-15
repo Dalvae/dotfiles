@@ -1,0 +1,58 @@
+file:///home/diego/Desktop/index.html {"mtime":1688175534437,"ctime":1688175534437,"size":0,"etag":"3ap37j1ra0","orphaned":false,"typeId":""}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mangata and Gallo</title>
+    <meta name="description" content="A brief description">
+    <meta name="author" content="Mangata and Gallo Jewelry Store">
+
+    <link rel="stylesheet" href="cs/style.css">
+</head>
+<body>
+    <header>
+        <img src="asset/logos/Asset 2@3x.png" alt="logo" width="500rem">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jewllery.html">Jewllery</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="main_description">
+            <div id="word">
+                <p>
+                    Mangata and Gallo is a jewelry store that specializes in special occasions like engagements, weddings and anniversaries. The jewelry company primarily operates online and has a small storefront in Austin, Texas with an atelier attached for browsing. Mangata & Gallo's selection of jewelry is known for its high-quality and classic look. The owner, an Austin local, is well known for her jewelry designs.  
+                </p>
+            </div>
+            <div class="photo">
+                <img src="asset/images/romantic-blus-wedding-color-ideas-1.jpg" alt="wedding" width=100% height="300rem">
+            </div>
+        </section>
+        <section class="details">
+            <article>
+                <img src="asset/images/90494b3baa407d20948f050fe9b3d057.jpg" alt="jewelry1" width="100%">
+            </article>
+            <article>
+                <img src="asset/images/f54d964df2eee87fe8e164e73e019779.jpg" alt="jewelry2" width="100%">
+            </article>
+            <article>
+                <img src="asset/images/4d27ce9968952c12bf5b4a9e0f6fb7cf.jpg" alt="jewelry2" width="100%">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="asset/logos/Asset 1@3x.png" width="150rem" alt="logo">
+        </div>
+        <div>
+            <p>Copyright M.G. jewelry store © 2023</p>
+        </div>
+    </footer>
+</body>
+</html>

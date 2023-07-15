@@ -1,0 +1,152 @@
+// theme
+$colormain: #26877f;
+$colorsecond: #0B3B37;
+$secondarycolor: #872626;
+$alertcolor: #872657;
+$backgroundcolor:#081c1c;
+$textcolor: white; 
+// html {
+//   margin: 0;
+// }
+body {
+  background-color: $backgroundcolor
+}
+header {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+  }
+  
+  .logo {
+    align-self: center;
+    margin-bottom: 1rem;
+    img {
+      height: auto;
+      max-height: 6rem; 
+    }
+  }
+  
+  nav {
+    background-color:$colormain;
+    border-radius: 1rem;
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly; 
+      
+      li {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 1rem;
+        margin: 0.5rem;
+        transition: transform 0.3s ease;
+        &:hover {
+          border: #26877f;
+          // border-style: dashed;
+          background-color: $alertcolor;
+          transform: scaleX(1.1);
+        }
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+
+  section {
+    display: flex;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    // margin-top: 2rem;
+  }
+  article {
+    flex: 1;
+    align-self: auto;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+  }
+
+  #promo {
+    background-image: url(/img/AdobeStock_428510221_Preview.jpeg);
+    background-size: cover;
+    border-radius: 2rem;
+    color:white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+// add efects
+.productcard{
+  background-color:$colormain;
+  display: flex;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  flex-flow: column wrap;
+  align-self: center;
+  padding: 0.5rem;
+  text-align: center;
+  color:$textcolor;
+  position: relative;
+  img {
+    border-radius: 1rem;
+    // &:hover {
+    //   opacity: 0.7;
+    // }
+  }
+
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:hover img {
+    opacity: 0.3;
+  }
+  &:hover p {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  p {
+      text-align: start;
+      display: none;
+      color:$textcolor;
+  }
+    
+}
+
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  img { 
+    max-height: 2rem;
+    margin-left: 1rem;
+  }
+  #copyright {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    font-style: italic; 
+    color: #999; 
+    text-align: center; 
+  }
+}
+#wrapcontainer {
+  margin: 2rem;
+}

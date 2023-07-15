@@ -1,0 +1,28 @@
+2023-07-14 19:00:33.025 [warning] /home/diego/.ssh/config: ENOENT: no such file or directory, open '/home/diego/.ssh/config'
+2023-07-14 19:00:33.167 [info] Looking for git repository
+2023-07-14 19:00:33.167 [info] Found 0 repositories during activation
+2023-07-14 19:00:33.167 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-14 19:00:33.168 [info] Registering git provider
+2023-07-14 19:09:08.832 [warning] /home/diego/.ssh/config: ENOENT: no such file or directory, open '/home/diego/.ssh/config'
+2023-07-14 19:09:08.873 [info] Looking for git repository
+2023-07-14 19:09:08.873 [info] Found 0 repositories during activation
+2023-07-14 19:09:08.873 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-14 19:09:12.238 [info] Registering git provider
+2023-07-14 19:09:12.244 [info] Git initialization state changed: state=initialized
+2023-07-14 19:09:33.320 [info] Repository file:///home/diego/projects/dotfiles has been opened
+2023-07-14 19:09:33.320 [info] Review> Validate state in progress
+2023-07-14 19:09:33.320 [info] Review> Validating state...
+2023-07-14 19:09:33.321 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-07-14 19:09:33.321 [info] No GitHub remotes found for folder /home/diego/projects/dotfiles
+2023-07-14 19:09:33.391 [info] Review> Validate state in progress
+2023-07-14 19:09:33.391 [info] Review> Validating state...
+2023-07-14 19:09:33.391 [info] Repo state for file:///home/diego/projects/dotfiles changed.
+2023-07-14 19:09:33.391 [info] Repo file:///home/diego/projects/dotfiles has already been setup.
+2023-07-14 19:09:33.401 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 19:09:33.436 [info] Review> no matching pull request metadata found for current branch master
+2023-07-14 19:09:33.436 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-07-14 19:09:37.934 [info] Review> Validate state in progress
+2023-07-14 19:09:37.934 [info] Review> Validating state...
+2023-07-14 19:09:37.936 [info] Found GitHub remote for folder /home/diego/projects/dotfiles
+2023-07-14 19:09:37.998 [info] Review> no matching pull request metadata found for current branch v3
+2023-07-14 19:09:37.998 [info] Review> No matching pull request metadata found on GitHub for current branch v3
