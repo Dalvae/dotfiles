@@ -1,0 +1,152 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 981,
+      "width": 903,
+      "x": 40,
+      "y": 60
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 965,
+      "width": 887,
+      "x": 48,
+      "y": 68
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 965,
+      "width": 887,
+      "x": 48,
+      "y": 68
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAoAAAAPAAAA64AAAQQAAAAMAAAAEQAAAOmAAAECAAAAAAAAAAAB4AAAAAwAAAARAAAA6YAAAQI"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 2.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Samsung Electric Company",
+      "model": "U28E590",
+      "name": "HDMI-0",
+      "serial": "HTPK400080",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAADdwAAA8UAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "base_font_size": 19,
+    "controls_footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "progress"
+    },
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "*No matarse",
+    "footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "progress"
+    },
+    "header": {
+      "left": "title",
+      "middle": "clock",
+      "right": "progress"
+    },
+    "hide_tooltips": null,
+    "left-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "margin_left": 300,
+    "margin_right": 300,
+    "read_mode": "paged",
+    "right-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "standalone_font_settings": {
+      "mono_family": "Iosevka Thin Extended Oblique",
+      "sans_family": "Iosevka Medium",
+      "serif_family": "Iosevka [UKWN]"
+    },
+    "standalone_misc_settings": {},
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Unknown"
+        ],
+        "key": "/mnt/capital/documents/Calibre/Unknown/El Quran (spanish) Santo (646)/El Quran (spanish) Santo - Unknown.mobi",
+        "pathtoebook": "/mnt/capital/documents/Calibre/Unknown/El Quran (spanish) Santo (646)/El Quran (spanish) Santo - Unknown.mobi",
+        "timestamp": "2023-06-21T21:50:59.101Z",
+        "title": "El Quran (spanish) Santo"
+      },
+      {
+        "authors": [
+          "Anónimo"
+        ],
+        "key": "/mnt/capital/documents/Calibre/Anonimo/El libro de las mil noches y una no (585)/El libro de las mil noches y un - Anonimo.epub",
+        "pathtoebook": "/mnt/capital/documents/Calibre/Anonimo/El libro de las mil noches y una no (585)/El libro de las mil noches y un - Anonimo.epub",
+        "timestamp": "2023-06-21T18:38:39.574Z",
+        "title": "Las mil y una noches"
+      },
+      {
+        "authors": [
+          "Carlos Marighella"
+        ],
+        "key": "/mnt/capital/documents/Calibre/Carlos Marighella/MINI-MANUAL DEL GUERRILLERO URBANO POR CARLOS MARIGHELLA Una definicin del Guerrillero Urbano (4)/MINI-MANUAL DEL GUERRILLERO URBANO POR CARLOS MARIGHELLA Una definicin del Guerrillero Urbano - Carlos Marighella.mobi",
+        "pathtoebook": "/mnt/capital/documents/Calibre/Carlos Marighella/MINI-MANUAL DEL GUERRILLERO URBANO POR CARLOS MARIGHELLA Una definicin del Guerrillero Urbano (4)/MINI-MANUAL DEL GUERRILLERO URBANO POR CARLOS MARIGHELLA Una definicin del Guerrillero Urbano - Carlos Marighella.mobi",
+        "timestamp": "2023-06-21T18:36:31.649Z",
+        "title": "MINI-MANUAL DEL GUERRILLERO URBANO POR CARLOS MARIGHELLA Una definicin del Guerrillero Urbano"
+      },
+      {
+        "authors": [
+          "Miguel de Cervantes Saavedra"
+        ],
+        "key": "/home/diego/documents/Calibre/Miguel de Cervantes Saavedra/Don Quijote (1)/Don Quijote - Miguel de Cervantes Saavedra.epub",
+        "pathtoebook": "/home/diego/documents/Calibre/Miguel de Cervantes Saavedra/Don Quijote (1)/Don Quijote - Miguel de Cervantes Saavedra.epub",
+        "timestamp": "2023-05-30T23:25:54.609Z",
+        "title": "Don Quijote"
+      },
+      {
+        "authors": [
+          "cristina"
+        ],
+        "key": "/home/diego/documents/Calibre/Thomas Merton/El camino de Chuang Tzu (561)/El camino de Chuang Tzu - Thomas Merton.mobi",
+        "pathtoebook": "/home/diego/documents/Calibre/Thomas Merton/El camino de Chuang Tzu (561)/El camino de Chuang Tzu - Thomas Merton.mobi",
+        "timestamp": "2023-04-15T01:20:13.603Z",
+        "title": "Thomas Merton"
+      }
+    ],
+    "user_color_schemes": {
+      "*No matarse": {
+        "background": "#000000",
+        "foreground": "#9372c1",
+        "name": "No matarse"
+      }
+    }
+  }
+}
