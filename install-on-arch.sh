@@ -49,7 +49,7 @@ create_default_directories(){
     mkdir -p "$HOME"/.config
     sudo mkdir -p  /usr/local/bin
     sudo mkdir -p  /usr/share/themes
-    mkdir -p "$HOME"/pictures/wallpapers
+    mkdir -p "$HOME"/images/wallpapers
 }
 create_backup(){
     echo -e "${green}[*] Creating backup of existing configs.${no_color}"

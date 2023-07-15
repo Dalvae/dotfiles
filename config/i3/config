@@ -1,4 +1,4 @@
-# Documentation: https://i3wm.org/docs/userguide.html
+ Documentation: https://i3wm.org/docs/userguide.html
 # Config created by Keyitdev https://www.github.com/keyitdev/dotfiles
 # Copyright (C) 2022 Keyitdev
 
@@ -19,8 +19,11 @@ exec_always --no-startup-id mpd &
 # run dunst
 exec_always --no-startup-id dunst &
 
+#resolution
+#exec_always xrandr --output eDP-1 --mode 2560x1440 &
+
 # set wallpaper with fed
-exec_always feh --no-fehbg --bg-scale $HOME/Pictures/wallpapers/background.png
+exec_always feh --no-fehbg --bg-scale $HOME/images/walpaper/background.jpg
 
 # launch polybar
 exec_always --no-startup-id killall -q
@@ -32,7 +35,12 @@ exec_always --no-startup-id battery&
 # start i3 components
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
-
+exec --no-startup-id "i3-msg 'workspace 4; append_layout /home/diego/i3/workspace-4.json'"
+exec_always --no-startup-id ticktick
+exec_always --no-startup-id ncspot
+exec_always --no-startup-id whatsapp-nativefier
+exec --no-startup-id picom -CGb
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & 
 ### Shortcuts ###
 
 floating_modifier $mod
@@ -92,15 +100,15 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # run lockscreen
-bindsym $mod+i exec lock
+bindsym $mod+i exec lockxrandxrand
 
 # monitor settings
 bindsym $mod+n exec xrandr --auto --output eDP-1 --mode 1920x1080 --right-of HDMI-1 && i3-msg restart &
 bindsym $mod+m exec xrandr --auto --output HDMI-1 --off && i3-msg restart &
 
 # toggle polybar
-bindsym $mod+o exec $HOME/.config/polybar/launch.sh
-bindsym $mod+p exec killall -q polybar
+# bindsym $mod+o exec $HOME/.config/polybar/launch.sh
+# bindsym $mod+p exec killall -q polybar
 
 # move workspaces between monitors
 bindsym $mod+b move workspace to output right
@@ -117,12 +125,12 @@ bindsym $mod+d exec "rofi -show drun -no-default-config -config ~/.config/rofi/m
 bindsym $mod+s exec "rofi -show drun -no-default-config -config ~/.config/rofi/full_screen.rasi"
 bindsym $mod+z exec "rofi -show  -modi ':rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi"
 bindsym $mod+x exec "rofi-powermenu"
-bindsym $mod+c exec "rofi-screenshot"
+#bindsym $mod+c exec "rofi-screenshot"
+
 
 # take a screenshot
 bindsym Pause exec screenshot -sa
-bindsym Print exec screenshot -sf
-
+bindsym $mod+c exec --no-startup-id maim "$HOME/Pictures/$(date)"
 # brightness control
 exec_always --no-startup-id light -I
 bindsym XF86MonBrightnessUp exec light -A 2 && light -O && brightness &
@@ -165,6 +173,8 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+
+
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -229,32 +239,40 @@ bindsym $mod+r mode "resize"
 ### BODERS ###
 
 #border width
-default_border pixel 2
+default_border pixel 8
 
-#border colors
-client.focused #343746 #343746 #F8F8F2 #343746 #343746
-client.focused_inactive #343746 #343746 #F8F8F2 #21222C #21222C
-client.unfocused #343746 #343746 #F8F8F2 #21222C #21222C
-
+# class                 border  bground text    indicator child_border
+client.focused          #4575c7 #4575C7 #0F0F17 #4575C7   #4575C7
+client.focused_inactive #0F0F17 #6D8090 #0F0F17 #6D8090   #495661
+client.unfocused        #0F0F17 #222222 #888888 #292D2E   #0F0F17
+client.urgent           #A4252C #A4252C #0F0F17 #A4252C   #A4252C
+client.placeholder      #0F0F17 #0F0F17 #0F0F17 #0F0F17   #0F0F17
 ### SETTINGS FOR i3 BAR ###
 
 bar {
         mode invisible
         tray_output none
 }
+        bindsym $mod+u      mode "$mode_gaps_outer"
 
 ### SETTINGS FOR i3-gaps ###
 
 # Set inner/outer gaps
-gaps inner 8
+gaps inner 25
 gaps outer 0
 
 # Smart gaps (gaps used if only more than one container on the workspace)
-# smart_gaps on
+ smart_gaps on
+
+workspace 1 gaps inner 0
+
+#Workspace specific gaps values
+workspace $ws1 gaps inner 0
+workspace $ws1 gaps outer 0
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-#smart_borders on
+smart_borders on
 
 # Press $mod+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
@@ -292,3 +310,18 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
+
+# window rules, you can find the window class using xprop
+assign [class=URxvt|code] 1
+assign [class=Firefox] 1
+assign [class=Spotify] 3
+assign [class=whatsapp-nativefier-d40211|ticktick|discord|ncspot] 4
+assign [title="ncspot"] 4
+assign [class=Geany|Evince|Gucharmap|Soffice|libreoffice*] 4
+assign [class=Audacity|Vlc|mpv|Ghb|Xfburn|Gimp*|Inkscape] 5
+assign [class=Lxappearance|System-config-printer.py|Lxtask|GParted|Pavucontrol|Exo-helper*|Lxrandr|Arandr] 6
+for_window [class=whatsapp-nativefier-d40211] floating enable, move position 70 80, resize set 1500 1000
+#for_window [class=ticktick] floating enable, move position 1950 40, resize set 600 1200
+for_window [title="ncspot"] floating enable; resize set 1350 1250; move absolute position bottom
+for_window [class=URxvt|Firefox|Geany|Evince|Soffice|libreoffice*|mpv|Ghb|Xfburn|Gimp*|Inkscape|Vlc|Lxappearance|Audacity] focus
+for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr] focus
