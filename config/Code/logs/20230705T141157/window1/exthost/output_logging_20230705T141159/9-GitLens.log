@@ -1,4 +1,0 @@
-[2023-07-05 18:12:01.019] [GIT  ] [/mnt/capital/games/Mario Kart 8 Deluxe [KaOs Repack]] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /mnt) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [79ms]
-
-[2023-07-05 18:12:01.102] [GIT  ] [/mnt/capital/games/World of Warcraft 3.3.5a/Interface] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /mnt) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [46ms]
-

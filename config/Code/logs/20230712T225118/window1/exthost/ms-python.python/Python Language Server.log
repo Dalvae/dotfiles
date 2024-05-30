@@ -1,9 +1,0 @@
-2023-07-12 22:51:23.125 [info] [Info  - 10:51:23 PM] (3170) Pylance language server 2023.6.40 (pyright 3f84540e) starting
-2023-07-12 22:51:23.126 [info] [Info  - 10:51:23 PM] (3170) Server root directory: /home/diego/.vscode/extensions/ms-python.vscode-pylance-2023.6.40/dist
-2023-07-12 22:51:23.133 [info] [Info  - 10:51:23 PM] (3170) Starting service instance "World of Warcraft 3.3.5a"
-2023-07-12 22:51:23.205 [info] [Info  - 10:51:23 PM] (3170) Setting pythonPath for service "World of Warcraft 3.3.5a": "/bin/python"
-2023-07-12 22:51:23.210 [info] [Warn  - 10:51:23 PM] (3170) stubPath /home/diego/World of Warcraft 3.3.5a/typings is not a valid directory.
-2023-07-12 22:51:23.283 [info] [Info  - 10:51:23 PM] (3170) Assuming Python version 3.11
-2023-07-12 22:51:23.545 [info] [Info  - 10:51:23 PM] (3170) No source files found.
-2023-07-12 22:51:23.644 [info] [Info  - 10:51:23 PM] (3170) Background analysis(1) root directory: /home/diego/.vscode/extensions/ms-python.vscode-pylance-2023.6.40/dist
-2023-07-12 22:51:23.667 [info] [Info  - 10:51:23 PM] (3170) Background analysis(1) started

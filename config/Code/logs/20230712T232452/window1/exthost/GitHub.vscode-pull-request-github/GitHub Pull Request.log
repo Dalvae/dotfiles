@@ -1,4 +1,0 @@
-2023-07-12 23:24:54.677 [warning] /home/diego/.ssh/config: ENOENT: no such file or directory, open '/home/diego/.ssh/config'
-2023-07-12 23:24:54.695 [info] Looking for git repository
-2023-07-12 23:24:54.695 [info] Found 0 repositories during activation
-2023-07-12 23:24:54.695 [info] Git repository found, initializing review manager and pr tree view.
