@@ -13,7 +13,8 @@ otf-font-awesome starship ttf-firacode-nerd wlogout github-cli ttf-twemoji lutri
 folder-color-switcher nemo-python-git polkit-kde-agent dunst pnpm nvm \
 pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber \
 lib32-pipewire lib32-pipewire-jack \
-vulkan-radeon lib32-vulkan-radeon mesa --noconfirm
+amdvlk lib32-amdvlk mesa \
+dxvk-bin --noconfirm
 
 #optional iwgtk light ripgrep bc gojq blueberry
 
