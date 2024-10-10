@@ -14,3 +14,5 @@ symbol = "[⬢](bold green) "
 [pulumi]
 symbol = "🧊 "
 
+[python]
+disabled = true

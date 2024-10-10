@@ -1,0 +1,24 @@
+import = ["/home/diego/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[window]
+decorations = "none"
+
+[window.dimensions]
+columns = 80
+lines = 35
+
+[window.padding]
+x = 24
+y = 24

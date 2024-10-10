@@ -2,7 +2,7 @@
   border: none;
   border-radius: 0;
   font-family: monospace;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 14px;
   min-height: 0;
 }
@@ -50,7 +50,7 @@ tooltip {
   outline: 0;
 }
 
-#custom-language, #custom-updates, #custom-caffeine, #custom-power, #clock, #battery, #pulseaudio, #network, #workspaces, #tray, #backlight {
+#custom-language, #custom-updates, #custom-caffeine, #custom-power, #custom-notification, #clock, #battery, #pulseaudio, #network, #workspaces, #tray, #backlight {
   background: #1e1e2e;
   padding: 0px 10px;
   margin: 3px 0px;
@@ -83,7 +83,7 @@ tooltip {
 }
 
 #clock {
-  color: #f9e2af;
+  color: #98465d;
   border-radius: 10px;
 }
 
