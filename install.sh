@@ -6,7 +6,7 @@ sudo pacman -S --needed base-devel --noconfirm
 
 echo "Grabbing packages via yay"
 yay -S catch2-git spotify socat paru zsh brightnessctl cava gnome-keyring waybar-hyprland-git nemo nemo-fileroller nemo-preview nemo-image-converter firefox \
-webcord xed visual-studio-code-bin hyprpaper-git network-manager-applet auto-cpufreq grim-git slurp gtklock wofi alacritty \
+webcord xed visual-studio-code-bin hyprpaper-git network-manager-applet auto-cpufreq grim-git slurp gtklock wofi kitty\
 blueman pfetch spicetify-cli catppuccin-gtk-theme-mocha sddm-git zsh-autosuggestions zsh-syntax-highlighting-git zathura \
 xviewer xplayer xdg-desktop-portal-hyprland-git ttf-ubuntu-mono-nerd ttf-dejavu ttf-bitstream-vera noto-fonts cantarell-fonts ttf-iosevka \
 otf-font-awesome starship ttf-firacode-nerd wlogout github-cli ttf-twemoji lutris \
@@ -33,8 +33,8 @@ cp wrappedh1.desktop ~/.local/bin/
 cp wrappedh1.desktop /usr/share/wayland-sessions/
 echo "Setting background photo"
 cp wallpaper.jpg ~/Pictures/
-echo "Moving alacritty dots"
-cp -r alacritty ~/.config/
+echo "Moving kitty dots"
+cp -r kitty ~/.config/
 echo "Moving gtklock dots"
 cp -r gtklock ~/.config/
 echo "Moving waybar dots"
@@ -76,8 +76,6 @@ echo "Getting spotifywm"
 git clone https://github.com/amurzeau/spotifywm.git ~/GitHub/spotifywm
 echo "Building spotifywm"
 make -C ~/GitHub/spotifywm/
-echo "Moving starship config"
-cp starship.toml ~/.config/
 echo "Move electron wayland flags"
 cp code-flags.conf ~/.config/
 cp electron-flags.conf ~/.config/
