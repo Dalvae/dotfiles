@@ -20,7 +20,7 @@ yay -S --needed --noconfirm \
     zathura xdg-desktop-portal-hyprland neovim btop gitui \
     ttf-ubuntu-mono-nerd ttf-dejavu ttf-bitstream-vera noto-fonts cantarell-fonts \
     ttf-iosevka otf-font-awesome ttf-firacode-nerd wlogout github-cli ttf-twemoji \
-    lutris polkit-kde-agent dunst pnpm nvm \
+    lutris polkit-kde-agent swaync pnpm nvm \
     pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber \
     lib32-pipewire lib32-pipewire-jack \
     qt5-wayland
