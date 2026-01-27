@@ -53,15 +53,12 @@ alias ........="cd ../../../.."
 # Aliases - LLM
 alias s="llm --log -s 'I am using Arch Linux with zsh shell. Provide direct shell commands without explanations unless asked' -m openrouter/meta-llama/llama-3.2-1b-instruct:free"
 alias sc="llm --log -c -s 'I am using Arch Linux with zsh shell. Provide direct shell commands without explanations unless asked' -m openrouter/meta-llama/llama-3.2-1b-instruct:free"
-alias c="llm --log -m openrouter/google/gemini-flash-2.0"
-alias cc="llm --log -c -m openrouter/google/gemini-flash-2.0"
 
 # Path configurations
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$HOME/.pyenv/bin:$PATH"
-# export PATH="$HOME/.rbenv/bin:$PATH"
 
-# PNPm configuration
+# PNPM configuration
 export PNPM_HOME="$HOME/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
@@ -70,8 +67,11 @@ esac
 
 # Load evaluations
 eval "$(pyenv init -)"
-# eval "$(rbenv init -)"
 
 # Source additional files conditionally
 [ -f ~/.env.secrets ] && source ~/.env.secrets
 [ -f /etc/profile.d/google-cloud-cli.sh ] && source /etc/profile.d/google-cloud-cli.sh
+
+# Terminal and NVM
+export TERMINAL=kitty
+source /usr/share/nvm/init-nvm.sh

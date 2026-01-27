@@ -1,12 +1,16 @@
 # ~/.config/kitty/kitty.conf
 
 # Fuente y tamaño
-# font_family      Iosevka
-# bold_font        Iosevka Bold
-# italic_font      Iosevka Italic
-# bold_italic_font Iosevka Bold Italic
-font_size 16.0
+font_family       Iosevka 
+bold_font          auto
+italic_font        auto
+bold_italic_font   auto
+font_size 18.0
 
+#foreground #DCDCCC
+#Otras opciones
+foreground #FFFFFF
+#foreground #F0F0F0  # Un blanco ligeramente más suave
 # No parpadeo del cursor
 cursor_blink_interval 0
 
@@ -15,11 +19,10 @@ cursor_shape beam
 cursor_beam_thickness 1.5
 
 # Transparencia de fondo (0 a 1)
-background_opacity 0.80
+background_opacity 0.95
 
 # Padding
-window_padding_width 10
-
+window_padding_width 0
 # Número de líneas de historial a mantener
 scrollback_lines 10000
 
@@ -70,9 +73,9 @@ mouse_map left click ungrabbed mouse_handle_click selection link prompt
 # Confirmar cierre
 confirm_os_window_close 0
 
-# BEGIN_KITTY_FONTS
-font_family      family="Cousine Nerd Font Mono"
-bold_font        auto
-italic_font      auto
-bold_italic_font auto
-# END_KITTY_FONTS
+# # BEGIN_KITTY_FONTS
+# font_family      family="IBm"
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
+# # END_KITTY_FONTS

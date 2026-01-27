@@ -1,120 +1,124 @@
-echo "Conrad's hyprland config setup script"
-echo "Don't forget to chmod +x first"
-echo "Updating system packages"
+#!/bin/bash
+set -e
+
+echo "Diego's Hyprland dotfiles setup script"
+echo "======================================="
+
+# Update system
+echo "Updating system packages..."
 sudo pacman -Syu --noconfirm
 sudo pacman -S --needed base-devel --noconfirm
 
-echo "Grabbing packages via yay"
-yay -S catch2-git spotify socat paru zsh brightnessctl cava gnome-keyring waybar-hyprland-git nemo nemo-fileroller nemo-preview nemo-image-converter firefox \
-webcord xed visual-studio-code-bin hyprpaper-git network-manager-applet auto-cpufreq grim-git slurp gtklock wofi kitty\
-blueman pfetch spicetify-cli catppuccin-gtk-theme-mocha sddm-git zsh-autosuggestions zsh-syntax-highlighting-git zathura \
-xviewer xplayer xdg-desktop-portal-hyprland-git ttf-ubuntu-mono-nerd ttf-dejavu ttf-bitstream-vera noto-fonts cantarell-fonts ttf-iosevka \
-otf-font-awesome starship ttf-firacode-nerd wlogout github-cli ttf-twemoji lutris \
-folder-color-switcher nemo-python-git polkit-kde-agent dunst pnpm nvm \
-pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber \
-lib32-pipewire lib32-pipewire-jack \
-amdvlk lib32-amdvlk mesa \
-dxvk-bin --noconfirm
+# Install packages via yay
+echo "Installing packages via yay..."
+yay -S --needed --noconfirm \
+    spotify socat paru zsh brightnessctl cava gnome-keyring \
+    waybar nemo nemo-fileroller nemo-preview nemo-image-converter firefox \
+    webcord visual-studio-code-bin hyprpaper network-manager-applet \
+    grim slurp gtklock wofi kitty blueman fastfetch spicetify-cli \
+    catppuccin-gtk-theme-mocha sddm zsh-autosuggestions zsh-syntax-highlighting \
+    zathura xdg-desktop-portal-hyprland neovim \
+    ttf-ubuntu-mono-nerd ttf-dejavu ttf-bitstream-vera noto-fonts cantarell-fonts \
+    ttf-iosevka otf-font-awesome ttf-firacode-nerd wlogout github-cli ttf-twemoji \
+    lutris polkit-kde-agent dunst pnpm nvm \
+    pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber \
+    lib32-pipewire lib32-pipewire-jack \
+    qt5-wayland
 
-#optional iwgtk light ripgrep bc gojq blueberry
+# Install Oh-My-Zsh
+echo "Installing Oh-My-Zsh..."
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+fi
 
-echo "Removing the shitty intel gpu driver"
-yay -R xf86-video-intel --noconfirm
+# Optional: Remove intel driver if causing issues
+# yay -R xf86-video-intel --noconfirm
 
-echo "Switching from bash to zsh"
+# Switch to zsh
+echo "Switching shell to zsh..."
 chsh -s /usr/bin/zsh
-echo "Moving dot files"
-echo "Making github folder"
-mkdir ~/GitHub
-echo "Moving hyprland dots"
+
+# Create directories
+echo "Creating directories..."
+mkdir -p ~/GitHub
+mkdir -p ~/Pictures
+mkdir -p ~/.config/fontconfig
+mkdir -p ~/.zsh
+
+# Copy dotfiles
+echo "Copying dotfiles..."
 cp -r hypr ~/.config/
-echo "Moving wrappedh1.desktop"
-cp wrappedh1.desktop ~/.local/bin/
-cp wrappedh1.desktop /usr/share/wayland-sessions/
-echo "Setting background photo"
-cp wallpaper.jpg ~/Pictures/
-echo "Moving kitty dots"
 cp -r kitty ~/.config/
-echo "Moving gtklock dots"
 cp -r gtklock ~/.config/
-echo "Moving waybar dots"
 cp -r waybar ~/.config/
-echo "Moving wofi dots"
 cp -r wofi ~/.config/
-echo "Moving cava dots"
 cp -r cava ~/.config/
-echo "Moving zathura dots"
 cp -r zathura ~/.config/
-echo "Set default terminal to alacritty"
-gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
-echo "Setting grub theme"
-git clone https://github.com/catppuccin/grub.git
-sudo cp -r grub/src/* /usr/share/grub/themes/
+cp -r wlogout ~/.config/
+cp -r gtk-3.0 ~/.config/
+cp -r Webcord/Themes ~/.config/WebCord/
+cp -r nvim ~/.config/
+cp .zshrc ~/
+cp wallpaper.jpg ~/Pictures/
+cp fonts.conf ~/.config/fontconfig/
+cp code-flags.conf electron-flags.conf electron19-flags.conf ~/.config/
+
+# Set default terminal to kitty
+echo "Setting default terminal to kitty..."
+gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty || true
+
+# Setup GRUB theme
+echo "Setting up GRUB theme..."
+git clone --depth 1 https://github.com/catppuccin/grub.git /tmp/catppuccin-grub
+sudo cp -r /tmp/catppuccin-grub/src/* /usr/share/grub/themes/
 sudo cp grub-config/grub /etc/default/
 sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo dracut-rebuild
-echo "Removing catppuccin grub repo"
-rm -rf grub
-echo "Moving SDDM dots"
-sudo cp -r sddm.conf.d /etc/
-echo "Cloning SDDM theme"
-git clone https://github.com/catppuccin/sddm.git
-echo "Moving SDDM theme"
-sudo cp -r sddm/src/catppuccin-mocha /usr/share/sddm/themes/
-echo "Creating symlinks for SDDM"
-sudo systemctl enable sddm.service
-echo "Changing sddm resolution"
-sudo cp 10-monitor.conf /etc/X11/xorg.conf.d/
-echo "Removing sddm catppuccin"
-rm -rf sddm
-#echo "Enabling auto-cpufreq"
-#sudo systemctl enable auto-cpufreq
-#sudo systemctl start auto-cpufreq
-echo "Removing zsh syntax theme".config/alacritty/catppuccin
-rm -rf zsh-syntax-highlighting
-echo "Getting spotifywm"
-git clone https://github.com/amurzeau/spotifywm.git ~/GitHub/spotifywm
-echo "Building spotifywm"
-make -C ~/GitHub/spotifywm/
-echo "Move electron wayland flags"
-cp code-flags.conf ~/.config/
-cp electron-flags.conf ~/.config/
-cp electron19-flags.conf ~/.config/
-echo "Move wlogout config"
-cp -r wlogout ~/.config/
-echo "Grabbing catppuccin zsh syntax highlighting"
-git clone https://github.com/catppuccin/zsh-syntax-highlighting.git
-mkdir ~/.zsh
-cp -v zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh ~/.zsh/
-echo "Changing gtk to dark mode"
-cp -r gtk-3.0 ~/.config/
-echo "Change system gtk to catppuccin pink dark"
-gsettings set org.gnome.desktop.interface gtk-theme "Catppuccin-Mocha-Standard-Pink-dark"
-gsettings set org.gnome.desktop.wm.preferences theme "Catppuccin-Mocha-Standard-Pink-dark"
-echo "Moving .zshrc"
-cp .zshrc ~/
-echo "Enabling bluetooth"
-systemctl enable bluetooth
-echo "Move webcord theme"
-cp -r Webcord/Themes ~/.config/WebCord/
-echo "Enabling emojis"
-mkdir ~/.config/fontconfig
-cp fonts.conf ~/.config/fontconfig/
-echo "Spicetify Catppuccion"
-sudo chmod a+wr /opt/spotify
-sudo chmod a+wr /opt/spotify/Apps -R
-git clone https://github.com/catppuccin/spicetify
-cp -r spicetify/catppuccin-* ~/.config/spicetify/Themes/
-cp spicetify/js/* ~/.config/spicetify/Extensions/
-spicetify backup
-spicetify config current_theme catppuccin
-spicetify config color_scheme mocha
-spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
-spicetify apply
-sudo rm -rf spicetify
-echo "Fix xdg shit just in case"
-yay -S qt5-wayland --noconfirm
-yay -R xdg-desktop-portal-gtk xdg-desktop-portal-gnome --noconfirm
-echo "Done script"
+rm -rf /tmp/catppuccin-grub
 
-exit
+# Setup SDDM
+echo "Setting up SDDM..."
+sudo cp -r sddm.conf.d /etc/
+git clone --depth 1 https://github.com/catppuccin/sddm.git /tmp/catppuccin-sddm
+sudo cp -r /tmp/catppuccin-sddm/src/catppuccin-mocha /usr/share/sddm/themes/
+sudo systemctl enable sddm.service
+sudo cp 10-monitor.conf /etc/X11/xorg.conf.d/
+rm -rf /tmp/catppuccin-sddm
+
+# Setup zsh syntax highlighting theme
+echo "Setting up zsh syntax highlighting..."
+git clone --depth 1 https://github.com/catppuccin/zsh-syntax-highlighting.git /tmp/zsh-catppuccin
+cp /tmp/zsh-catppuccin/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh ~/.zsh/
+rm -rf /tmp/zsh-catppuccin
+
+# GTK theme
+echo "Setting GTK theme..."
+gsettings set org.gnome.desktop.interface gtk-theme "Catppuccin-Mocha-Standard-Pink-dark" || true
+gsettings set org.gnome.desktop.wm.preferences theme "Catppuccin-Mocha-Standard-Pink-dark" || true
+
+# Enable services
+echo "Enabling services..."
+systemctl --user enable pipewire pipewire-pulse wireplumber || true
+sudo systemctl enable bluetooth || true
+
+# Spicetify setup (optional - requires Spotify installed)
+if command -v spicetify &> /dev/null && [ -d /opt/spotify ]; then
+    echo "Setting up Spicetify..."
+    sudo chmod a+wr /opt/spotify
+    sudo chmod a+wr /opt/spotify/Apps -R
+    git clone --depth 1 https://github.com/catppuccin/spicetify /tmp/spicetify-catppuccin
+    cp -r /tmp/spicetify-catppuccin/catppuccin-* ~/.config/spicetify/Themes/
+    cp /tmp/spicetify-catppuccin/js/* ~/.config/spicetify/Extensions/
+    spicetify backup apply
+    spicetify config current_theme catppuccin color_scheme mocha
+    spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
+    spicetify apply
+    rm -rf /tmp/spicetify-catppuccin
+fi
+
+# Remove conflicting portals
+echo "Cleaning up conflicting XDG portals..."
+yay -R --noconfirm xdg-desktop-portal-gtk xdg-desktop-portal-gnome 2>/dev/null || true
+
+echo ""
+echo "Done! Please reboot your system."
+echo "Don't forget to create ~/.env.secrets for your API keys."
