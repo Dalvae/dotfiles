@@ -17,7 +17,7 @@ yay -S --needed --noconfirm \
     webcord visual-studio-code-bin hyprpaper network-manager-applet \
     grim slurp gtklock wofi kitty blueman fastfetch spicetify-cli \
     catppuccin-gtk-theme-mocha sddm zsh-autosuggestions zsh-syntax-highlighting \
-    zathura xdg-desktop-portal-hyprland neovim \
+    zathura xdg-desktop-portal-hyprland neovim btop gitui \
     ttf-ubuntu-mono-nerd ttf-dejavu ttf-bitstream-vera noto-fonts cantarell-fonts \
     ttf-iosevka otf-font-awesome ttf-firacode-nerd wlogout github-cli ttf-twemoji \
     lutris polkit-kde-agent dunst pnpm nvm \
@@ -58,6 +58,8 @@ cp -r wlogout ~/.config/
 cp -r gtk-3.0 ~/.config/
 cp -r Webcord/Themes ~/.config/WebCord/
 cp -r nvim ~/.config/
+cp -r btop ~/.config/
+cp -r gitui ~/.config/
 cp .zshrc ~/
 cp wallpaper.jpg ~/Pictures/
 cp fonts.conf ~/.config/fontconfig/
