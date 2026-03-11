@@ -1,0 +1,11 @@
+node_modules/
+.opencode/
+browser_profile/
+playwright-firefox-profile/
+bun.lock
+package-lock.json
+*.log
+mcp-servers/
+login_manual.js
+dcp.jsonc
+opencode.jsonc.tui-migration.bak

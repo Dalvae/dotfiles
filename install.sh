@@ -60,6 +60,7 @@ cp -r Webcord/Themes ~/.config/WebCord/
 cp -r nvim ~/.config/
 cp -r btop ~/.config/
 cp -r gitui ~/.config/
+cp -r opencode ~/.config/
 cp .zshrc ~/
 cp wallpaper.jpg ~/Pictures/
 cp fonts.conf ~/.config/fontconfig/

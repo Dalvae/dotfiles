@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@opencode-ai/plugin": "1.2.24",
+    "@playwright/mcp": "^0.0.68",
+    "@tarquinen/opencode-dcp": "^3.0.0",
+    "playwright-core": "^1.59.0-alpha-1771104257000"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "github-copilot/claude-sonnet-4.5",
+  "plugin": [
+    "@mohak34/opencode-notifier@latest",
+    "opencode-sessions@latest",
+    "@howaboua/opencode-planning-toolkit@latest",
+    "@tarquinen/opencode-dcp@latest"
+  ],
+  "instructions": [
+    "~/.config/opencode/plugin/shell-strategy/shell_strategy.md"
+  ],
+  "agent": {
+    "fast": {
+      "mode": "subagent",
+      "model": "github-copilot/gemini-3-flash-preview",
+      "description": "Tareas simples y repetitivas. Respuestas rápidas a preguntas básicas de código.",
+      "prompt": "Eres un asistente rápido y eficiente. Responde de manera concisa y directa. Para tareas simples: explicaciones breves, respuestas cortas, sin detalles innecesarios.",
+      "tools": {
+        "read": true,
+        "glob": true
+      }
+    },
+    "debug": {
+      "mode": "subagent",
+      "model": "github-copilot/claude-opus-4.6",
+      "description": "Debugging profundo y razonamiento complejo. Resolución de problemas multi-paso.",
+      "prompt": "Eres un experto en debugging y análisis profundo. Tu especialidad es:\n- Identificar la causa raíz de bugs complejos\n- Analizar arquitectura y patrones de diseño\n- Resolver problemas que requieren razonamiento sofisticado\n- Proporcionar soluciones robustas considerando edge cases\n\nTómate el tiempo necesario para analizar a fondo antes de responder.",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true,
+        "grep": true,
+        "glob": true
+      }
+    },
+    "developer": {
+      "mode": "subagent",
+      "model": "github-copilot/claude-opus-4.6",
+      "description": "Desarrollo de código y generación compleja. Debug y research workflows.",
+      "prompt": "Eres un desarrollador experto. Tu trabajo es escribir código de alta calidad, generar código complejo, y realizar debugging y research. Prioriza código limpio, bien documentado y siguiendo mejores prácticas.",
+      "tools": {
+        "write": true,
+        "edit": true,
+        "bash": true,
+        "grep": true,
+        "glob": true,
+        "read": true
+      }
+    },
+    "inspector": {
+      "mode": "subagent",
+      "model": "github-copilot/claude-opus-4.6",
+      "description": "Revisión de código, code review profundo y análisis de calidad.",
+      "prompt": "Eres un experto en code review y análisis de calidad de código. Tu trabajo es:\n- Revisar código en busca de bugs, vulnerabilidades y malas prácticas\n- Evaluar calidad, mantenibilidad y legibilidad\n- Sugerir mejoras arquitectónicas y de rendimiento\n- Verificar cumplimiento de estándares y mejores prácticas\n- Identificar deuda técnica y code smells\n\nSé crítico pero constructivo. Proporciona ejemplos concretos de cómo mejorar.",
+      "tools": {
+        "read": true,
+        "grep": true,
+        "glob": true
+      }
+    },
+    "agentic": {
+      "mode": "subagent",
+      "model": "github-copilot/gpt-5.1",
+      "description": "Desarrollo de software agentic. Tareas complejas autónomas.",
+      "prompt": "Eres un agente de desarrollo de software autónomo. Puedes:\n- Ejecutar múltiples pasos de forma independiente\n- Tomar decisiones arquitectónicas\n- Implementar features completos de principio a fin\n- Gestionar dependencias y configuraciones\n- Escribir tests y documentación\n\nActúa con autonomía pero informa de los cambios significativos.",
+      "tools": {
+        "write": true,
+        "edit": true,
+        "bash": true,
+        "grep": true,
+        "glob": true,
+        "read": true,
+        "webfetch": true,
+        "websearch": true,
+        "codesearch": true
+      }
+    },
+    "architect": {
+      "mode": "subagent",
+      "model": "github-copilot/claude-opus-4.6",
+      "description": "Planificación técnica y arquitectura avanzada",
+      "prompt": "Eres un arquitecto de software experto. Tu trabajo es analizar requerimientos y crear planes técnicos detallados.\n\nREGLAS OBLIGATORIAS:\n1. SIEMPRE estructura tus planes con: Objetivo, Requisitos, Arquitectura, Pasos de Implementación\n2. Sé específico y técnico\n3. DEBES guardar CADA plan en un archivo .md dentro de .opencode/plans/\n4. Si la carpeta .opencode/plans/ no existe, créala primero con bash\n5. Usa nombres descriptivos: YYYY-MM-DD-nombre-del-plan.md\n6. NO escribas código de implementación, solo documentación técnica\n7. Considera edge cases, seguridad y escalabilidad\n8. Después de crear el plan, confirma la ruta del archivo guardado",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true,
+        "grep": true,
+        "glob": true
+      }
+    },
+    "research": {
+      "mode": "subagent",
+      "model": "github-copilot/claude-opus-4.6",
+      "description": "Research y exploración de código. Análisis profundo de arquitectura.",
+      "prompt": "Eres un investigador de código experto. Tu trabajo es explorar y analizar bases de código para entender su estructura, patrones y funcionalidad. Realiza análisis profundos considerando arquitectura, dependencias y mejores prácticas.",
+      "tools": {
+        "read": true,
+        "grep": true,
+        "glob": true,
+        "bash": true,
+        "websearch": true
+      }
+    }
+  },
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true
+    },
+    "gh_grep": {
+      "type": "remote",
+      "url": "https://mcp.grep.app",
+      "enabled": true
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "node",
+        "/home/diego/.config/opencode/node_modules/@playwright/mcp/cli.js",
+        "--browser", "firefox",
+        "--executable-path", "/home/diego/.cache/ms-playwright/firefox-1509/firefox/firefox",
+        "--user-data-dir", "/home/diego/.config/opencode/browser_profile"
+      ],
+      "enabled": false
+    }
+  }
+}
