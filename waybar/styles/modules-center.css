@@ -18,6 +18,7 @@
 }
 #temperature {
 	background-color: @temperature;
+	padding: 0 6px;
 }
 
 /*------------
@@ -30,6 +31,7 @@
 }
 #memory {
 	background-color: @memory;
+	padding: 0 6px;
 }
 
 /*---------
@@ -42,6 +44,7 @@
 }
 #cpu {
 	background-color: @cpu;
+	padding: 0 6px;
 }
 #custom-left_inv.1 {
 	color: @cpu;
@@ -70,6 +73,7 @@
 }
 #idle_inhibitor {
 	background-color: @time;
+	padding: 0 6px;
 }
 
 /*----------

@@ -27,6 +27,7 @@
 #pulseaudio,
 #wireplumber {
 	background-color: @volume;
+	padding: 0 6px;
 }
 
 /*----------------
@@ -39,6 +40,7 @@
 }
 #backlight {
 	background-color: @backlight;
+	padding: 0 6px;
 }
 
 /*-------------
@@ -51,6 +53,7 @@
 }
 #battery {
 	background-color: @battery;
+	padding: 0 6px;
 }
 #custom-left_inv.2 {
 	color: @battery;
