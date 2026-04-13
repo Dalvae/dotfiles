@@ -21,22 +21,21 @@ This will install all required dependencies for OpenCode plugins.
 
 ## Custom Agents
 
-This configuration includes several custom agents:
+This configuration includes these OpenCode agents:
 
-- **fast**: Quick responses using Gemini (read-only)
-- **debug**: Deep debugging with Claude Opus 4.6
-- **developer**: Full development capabilities with Claude Opus 4.6
-- **inspector**: Code review and quality analysis
-- **agentic**: Autonomous development with GPT-5.1
-- **architect**: Technical planning and architecture
-- **research**: Code exploration and analysis
+- **build**: Primary implementation agent (openai/gpt-5.4-mini) with controlled delegation
+- **plan**: Planning specialist for creating and tracking plans (openai/gpt-5.4)
+- **fast**: Small tasks with minimal context (Gemini 3 flash preview)
+- **debug**: Deep debugging and root-cause analysis
+- **general**: Complex research and multi-step work
+- **explore**: Fast read-only repository explorer
 
 ## Plugins
 
 - `@mohak34/opencode-notifier`: Desktop notifications
 - `opencode-sessions`: Session management
-- `@howaboua/opencode-planning-toolkit`: Planning tools
 - `@tarquinen/opencode-dcp`: Deep context protocol
+- `superpowers`: local utility plugin
 
 ## MCP Servers
 

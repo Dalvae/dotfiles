@@ -1,143 +1,181 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "openrouter/hunter-alpha",
+  "model": "fireworks-ai/accounts/fireworks/routers/kimi-k2p5-turbo",
+  "default_agent": "build",
   "plugin": [
     "@mohak34/opencode-notifier@latest",
     "opencode-sessions@latest",
-    "@howaboua/opencode-planning-toolkit@latest",
-    "@tarquinen/opencode-dcp@latest"
+    "@tarquinen/opencode-dcp@latest",
+    "superpowers@git+https://github.com/obra/superpowers.git"
   ],
   "instructions": [
     "~/.config/opencode/plugin/shell-strategy/shell_strategy.md"
   ],
+  "permission": {
+    "read": "allow",
+    "grep": "allow",
+    "glob": "allow",
+    "list": "allow",
+    "todowrite": "allow",
+    "question": "allow",
+    "skill": "allow",
+    "edit": "ask",
+    "bash": "ask",
+    "task": "deny",
+    "webfetch": "ask",
+    "websearch": "ask",
+    "codesearch": "ask"
+  },
   "agent": {
+    "build": {
+      "mode": "primary",
+      "model": "openai/gpt-5.4-mini",
+      "description": "Primary implementation agent with controlled delegation.",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "task": {
+          "*": "deny",
+          "fast": "allow",
+          "debug": "allow",
+          "general": "allow",
+          "explore": "allow",
+          "discovery": "allow",
+          "feature-manager": "allow",
+          "builder": "allow",
+          "planner": "allow",
+          "reviewer": "allow",
+          "implementer": "allow",
+          "shipper": "allow",
+          "testing": "allow"
+        },
+        "webfetch": "allow",
+        "websearch": "allow",
+        "codesearch": "allow"
+      }
+    },
+    "plan": {
+      "mode": "primary",
+      "model": "openai/gpt-5.4",
+      "variant": "xhigh",
+      "description": "Analyzes and plans, writing plan files by default.",
+      "prompt": "You are a planning specialist. Analyze repository context before proposing changes. Generate phased plans with atomic tasks, acceptance criteria, target files, and validation. Prefer small, reversible, testable changes. By default, write every substantial plan to `.opencode/plans/YYYY-MM-DD-<slug>.md`; create `.opencode/plans/` first if needed. After writing the file, summarize the plan clearly in the chat.",
+      "permission": {
+        "edit": "allow",
+        "bash": {
+          "*": "deny",
+          "git status*": "allow",
+          "git diff*": "allow",
+          "git log*": "allow"
+        },
+        "task": {
+          "*": "deny",
+          "fast": "allow",
+          "general": "allow",
+          "explore": "allow",
+          "discovery": "allow",
+          "feature-manager": "allow",
+          "planner": "allow",
+          "reviewer": "allow",
+          "shipper": "allow"
+        },
+        "webfetch": "allow",
+        "websearch": "allow",
+        "codesearch": "allow"
+      }
+    },
     "fast": {
       "mode": "subagent",
       "model": "github-copilot/gemini-3-flash-preview",
-      "description": "Tareas simples y repetitivas. Respuestas rápidas a preguntas básicas de código.",
-      "prompt": "Eres un asistente rápido y eficiente. Responde de manera concisa y directa. Para tareas simples: explicaciones breves, respuestas cortas, sin detalles innecesarios.",
-      "tools": {
-        "read": true,
-        "glob": true
+      "description": "Small tasks and quick answers with minimal context.",
+      "prompt": "You are a fast assistant. Solve small tasks with as few steps as possible. If the work needs broad investigation or larger changes, say so and hand it back to a stronger agent.",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "task": "deny",
+        "webfetch": "deny",
+        "websearch": "deny",
+        "codesearch": "deny"
       }
     },
     "debug": {
       "mode": "subagent",
-      "model": "github-copilot/claude-opus-4.6",
-      "description": "Debugging profundo y razonamiento complejo. Resolución de problemas multi-paso.",
-      "prompt": "Eres un experto en debugging y análisis profundo. Tu especialidad es:\n- Identificar la causa raíz de bugs complejos\n- Analizar arquitectura y patrones de diseño\n- Resolver problemas que requieren razonamiento sofisticado\n- Proporcionar soluciones robustas considerando edge cases\n\nTómate el tiempo necesario para analizar a fondo antes de responder.",
-      "tools": {
-        "read": true,
-        "write": true,
-        "edit": true,
-        "bash": true,
-        "grep": true,
-        "glob": true
+      "model": "openai/gpt-5.4",
+      "variant": "xhigh",
+      "description": "Deep debugging, hypothesis testing, and evidence-based small fixes.",
+      "prompt": "You are a debugging specialist. Start from symptoms and evidence, narrow the search space, propose one primary hypothesis with a falsification check, and prioritize the smallest fix that resolves the root cause.",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "task": {
+          "*": "deny",
+          "explore": "allow",
+          "discovery": "allow",
+          "testing": "allow"
+        },
+        "webfetch": "allow",
+        "websearch": "allow",
+        "codesearch": "allow"
       }
     },
-    "developer": {
+    "general": {
       "mode": "subagent",
-      "model": "github-copilot/claude-opus-4.6",
-      "description": "Desarrollo de código y generación compleja. Debug y research workflows.",
-      "prompt": "Eres un desarrollador experto. Tu trabajo es escribir código de alta calidad, generar código complejo, y realizar debugging y research. Prioriza código limpio, bien documentado y siguiendo mejores prácticas.",
-      "tools": {
-        "write": true,
-        "edit": true,
-        "bash": true,
-        "grep": true,
-        "glob": true,
-        "read": true
+      "model": "fireworks-ai/accounts/fireworks/routers/kimi-k2p5-turbo",
+      "description": "General-purpose agent for complex research and multistep work.",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "task": {
+          "*": "deny",
+          "fast": "allow",
+          "debug": "allow",
+          "explore": "allow",
+          "discovery": "allow",
+          "feature-manager": "allow",
+          "builder": "allow",
+          "planner": "allow",
+          "reviewer": "allow",
+          "implementer": "allow",
+          "shipper": "allow",
+          "testing": "allow"
+        },
+        "webfetch": "allow",
+        "websearch": "allow",
+        "codesearch": "allow"
       }
     },
-    "inspector": {
+    "explore": {
       "mode": "subagent",
-      "model": "github-copilot/claude-opus-4.6",
-      "description": "Revisión de código, code review profundo y análisis de calidad.",
-      "prompt": "Eres un experto en code review y análisis de calidad de código. Tu trabajo es:\n- Revisar código en busca de bugs, vulnerabilidades y malas prácticas\n- Evaluar calidad, mantenibilidad y legibilidad\n- Sugerir mejoras arquitectónicas y de rendimiento\n- Verificar cumplimiento de estándares y mejores prácticas\n- Identificar deuda técnica y code smells\n\nSé crítico pero constructivo. Proporciona ejemplos concretos de cómo mejorar.",
-      "tools": {
-        "read": true,
-        "grep": true,
-        "glob": true
-      }
-    },
-    "agentic": {
-      "mode": "subagent",
-      "model": "github-copilot/gpt-5.1",
-      "description": "Desarrollo de software agentic. Tareas complejas autónomas.",
-      "prompt": "Eres un agente de desarrollo de software autónomo. Puedes:\n- Ejecutar múltiples pasos de forma independiente\n- Tomar decisiones arquitectónicas\n- Implementar features completos de principio a fin\n- Gestionar dependencias y configuraciones\n- Escribir tests y documentación\n\nActúa con autonomía pero informa de los cambios significativos.",
-      "tools": {
-        "write": true,
-        "edit": true,
-        "bash": true,
-        "grep": true,
-        "glob": true,
-        "read": true,
-        "webfetch": true,
-        "websearch": true,
-        "codesearch": true
-      }
-    },
-    "architect": {
-      "mode": "subagent",
-      "model": "github-copilot/claude-opus-4.6",
-      "description": "Planificación técnica y arquitectura avanzada",
-      "prompt": "Eres un arquitecto de software experto. Tu trabajo es analizar requerimientos y crear planes técnicos detallados.\n\nREGLAS OBLIGATORIAS:\n1. SIEMPRE estructura tus planes con: Objetivo, Requisitos, Arquitectura, Pasos de Implementación\n2. Sé específico y técnico\n3. DEBES guardar CADA plan en un archivo .md dentro de .opencode/plans/\n4. Si la carpeta .opencode/plans/ no existe, créala primero con bash\n5. Usa nombres descriptivos: YYYY-MM-DD-nombre-del-plan.md\n6. NO escribas código de implementación, solo documentación técnica\n7. Considera edge cases, seguridad y escalabilidad\n8. Después de crear el plan, confirma la ruta del archivo guardado",
-      "tools": {
-        "read": true,
-        "write": true,
-        "edit": true,
-        "bash": true,
-        "grep": true,
-        "glob": true
-      }
-    },
-    "research": {
-      "mode": "subagent",
-      "model": "github-copilot/claude-opus-4.6",
-      "description": "Research y exploración de código. Análisis profundo de arquitectura.",
-      "prompt": "Eres un investigador de código experto. Tu trabajo es explorar y analizar bases de código para entender su estructura, patrones y funcionalidad. Realiza análisis profundos considerando arquitectura, dependencias y mejores prácticas.",
-      "tools": {
-        "read": true,
-        "grep": true,
-        "glob": true,
-        "bash": true,
-        "websearch": true
+      "model": "github-copilot/gemini-3-flash-preview",
+      "description": "Fast read-only repo explorer for locating files, patterns, and clues.",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "task": "deny",
+        "webfetch": "allow",
+        "websearch": "allow",
+        "codesearch": "allow"
       }
     }
   },
   "provider": {
-    "openrouter": {
+    "fireworks-ai": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Fireworks AI",
+      "env": ["FIREWORKS_API_KEY"],
+      "options": {
+        "baseURL": "https://api.fireworks.ai/inference/v1"
+      },
       "models": {
-        "hunter-alpha": {
-          "id": "openrouter/hunter-alpha",
-          "name": "Hunter Alpha",
+        "accounts/fireworks/routers/kimi-k2p5-turbo": {
+          "name": "Kimi K2.5 Turbo (Fire Pass)",
           "attachment": true,
           "reasoning": true,
           "temperature": true,
           "tool_call": true,
           "limit": {
-            "context": 1048576,
-            "output": 64000
-          },
-          "modalities": {
-            "input": ["text", "image", "pdf"],
-            "output": ["text"]
-          }
-        },
-        "healer-alpha": {
-          "id": "openrouter/healer-alpha",
-          "name": "Healer Alpha",
-          "attachment": true,
-          "reasoning": true,
-          "temperature": true,
-          "tool_call": true,
-          "limit": {
-            "context": 262144,
-            "output": 64000
-          },
-          "modalities": {
-            "input": ["text", "image", "audio", "pdf"],
-            "output": ["text"]
+            "context": 131072,
+            "output": 65536
           }
         }
       }
@@ -153,17 +191,6 @@
       "type": "remote",
       "url": "https://mcp.grep.app",
       "enabled": true
-    },
-    "playwright": {
-      "type": "local",
-      "command": [
-        "node",
-        "/home/diego/.config/opencode/node_modules/@playwright/mcp/cli.js",
-        "--browser", "firefox",
-        "--executable-path", "/home/diego/.cache/ms-playwright/firefox-1509/firefox/firefox",
-        "--user-data-dir", "/home/diego/.config/opencode/browser_profile"
-      ],
-      "enabled": false
     }
   }
 }

@@ -1,11 +1,9 @@
 node_modules/
 .opencode/
+.omc/
 browser_profile/
 playwright-firefox-profile/
-bun.lock
-package-lock.json
-*.log
-mcp-servers/
-login_manual.js
-dcp.jsonc
-opencode.jsonc.tui-migration.bak
+opencode-notifier-state.json
+*.bak
+*.sqlite
+*.sqlite-*
