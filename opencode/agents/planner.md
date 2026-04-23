@@ -1,7 +1,7 @@
 ---
 description: Plans technical work in phases and atomic tasks
 mode: subagent
-model: openai/gpt-5.4
+model: openai/gpt-5.5
 variant: xhigh
 permission:
   read: allow

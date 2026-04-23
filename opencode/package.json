@@ -1,8 +1,8 @@
 {
   "dependencies": {
+    "@cortexkit/opencode-magic-context": "^0.12.0",
     "@opencode-ai/plugin": "1.3.17",
     "@playwright/mcp": "^0.0.68",
-    "@tarquinen/opencode-dcp": "^3.0.0",
     "playwright-core": "^1.59.0-alpha-1771104257000"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cortexkit/opencode-magic-context/master/assets/magic-context.schema.json",
+  "enabled": true,
+
+  "historian": {
+    "model": "openai/gpt-5.4",
+    "fallback_models": ["openai/gpt-5.4-mini"]
+  },
+
+  "dreamer": {
+    "enabled": true,
+    "model": "openai/gpt-5.4-mini",
+    "schedule": "0 2 * * *"
+  },
+
+  "sidekick": {
+    "enabled": true,
+    "model": "openai/gpt-5.4-mini"
+  },
+
+  "experimental": {
+    "compaction_markers": true,
+    "user_memories": {
+      "enabled": true
+    },
+    "pin_key_files": {
+      "enabled": true
+    }
+  }
+}

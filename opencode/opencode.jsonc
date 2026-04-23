@@ -5,8 +5,8 @@
   "plugin": [
     "@mohak34/opencode-notifier@latest",
     "opencode-sessions@latest",
-    "@tarquinen/opencode-dcp@latest",
-    "superpowers@git+https://github.com/obra/superpowers.git"
+    "superpowers@git+https://github.com/obra/superpowers.git",
+    "@cortexkit/opencode-magic-context@latest"
   ],
   "instructions": [
     "~/.config/opencode/plugin/shell-strategy/shell_strategy.md"
@@ -30,12 +30,15 @@
     "build": {
       "mode": "primary",
       "model": "openai/gpt-5.4-mini",
-      "description": "Primary implementation agent with controlled delegation.",
+      "description": "Default primary agent for implementation. Routes to explore/general for reconnaissance, plan for complex work, and debug for root cause analysis. Uses structured handoffs.",
       "permission": {
         "edit": "allow",
-        "bash": "allow",
+        "bash": {
+          "git push*": "deny",
+          "*": "allow"
+        },
         "task": {
-          "*": "deny",
+          "docx-vision": "allow",
           "fast": "allow",
           "debug": "allow",
           "general": "allow",
@@ -56,9 +59,9 @@
     },
     "plan": {
       "mode": "primary",
-      "model": "openai/gpt-5.4",
+      "model": "openai/gpt-5.5",
       "variant": "xhigh",
-      "description": "Analyzes and plans, writing plan files by default.",
+      "description": "Planning specialist for complex work. Analyzes requirements, creates phased plans, and hands off to build for implementation. Uses structured handoffs.",
       "prompt": "You are a planning specialist. Analyze repository context before proposing changes. Generate phased plans with atomic tasks, acceptance criteria, target files, and validation. Prefer small, reversible, testable changes. By default, write every substantial plan to `.opencode/plans/YYYY-MM-DD-<slug>.md`; create `.opencode/plans/` first if needed. After writing the file, summarize the plan clearly in the chat.",
       "permission": {
         "edit": "allow",
@@ -87,8 +90,8 @@
     "fast": {
       "mode": "subagent",
       "model": "github-copilot/gemini-3-flash-preview",
-      "description": "Small tasks and quick answers with minimal context.",
-      "prompt": "You are a fast assistant. Solve small tasks with as few steps as possible. If the work needs broad investigation or larger changes, say so and hand it back to a stronger agent.",
+      "description": "Quick answers and trivial lookups. Hands off to general/build if scope exceeds one-step tasks. Uses structured handoffs.",
+      "prompt": "You are a fast assistant. Solve small tasks with as few steps as possible. Return results with a structured handoff block. If the work needs broader investigation or larger changes, escalate to @general or @build with full context.",
       "permission": {
         "edit": "deny",
         "bash": "deny",
@@ -100,10 +103,10 @@
     },
     "debug": {
       "mode": "subagent",
-      "model": "openai/gpt-5.4",
+      "model": "openai/gpt-5.5",
       "variant": "xhigh",
-      "description": "Deep debugging, hypothesis testing, and evidence-based small fixes.",
-      "prompt": "You are a debugging specialist. Start from symptoms and evidence, narrow the search space, propose one primary hypothesis with a falsification check, and prioritize the smallest fix that resolves the root cause.",
+      "description": "Root cause analysis and systematic debugging. Evidence-driven hypothesis testing. Returns findings via structured handoffs.",
+      "prompt": "You are a debugging specialist. Start from symptoms and evidence, narrow the search space, propose one primary hypothesis with a falsification check, and prioritize the smallest fix that resolves the root cause. When reporting findings or handing off, use the structured handoff block format.",
       "permission": {
         "edit": "allow",
         "bash": "allow",
@@ -121,7 +124,8 @@
     "general": {
       "mode": "subagent",
       "model": "fireworks-ai/accounts/fireworks/routers/kimi-k2p5-turbo",
-      "description": "General-purpose agent for complex research and multistep work.",
+      "description": "General-purpose workhorse for research, multistep tasks, and write-enabled exploration. Routes to plan for complex architecture, debug for root cause analysis, and build for implementation.",
+      "prompt": "You are a general-purpose agent for complex research and multistep work. Prefer @explore for read-only reconnaissance first. Delegate to @plan for phased approaches, @debug for systematic problem solving, and return to @build for implementation. Use structured handoff blocks when delegating or completing work.",
       "permission": {
         "edit": "allow",
         "bash": "allow",
@@ -147,7 +151,8 @@
     "explore": {
       "mode": "subagent",
       "model": "github-copilot/gemini-3-flash-preview",
-      "description": "Fast read-only repo explorer for locating files, patterns, and clues.",
+      "description": "Cheap read-only reconnaissance. Locates files, patterns, and structure. Hands off to general/build with structured context.",
+      "prompt": "You are a fast, read-only repo explorer. Locate files, find patterns, and understand structure without making changes. When findings are complete, report back using the structured handoff block format, listing all relevant files and context found.",
       "permission": {
         "edit": "deny",
         "bash": "deny",
@@ -162,7 +167,9 @@
     "fireworks-ai": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "Fireworks AI",
-      "env": ["FIREWORKS_API_KEY"],
+      "env": [
+        "FIREWORKS_API_KEY"
+      ],
       "options": {
         "baseURL": "https://api.fireworks.ai/inference/v1"
       },
@@ -180,6 +187,10 @@
         }
       }
     }
+  },
+  "compaction": {
+    "auto": false,
+    "prune": false
   },
   "mcp": {
     "context7": {
