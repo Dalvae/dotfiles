@@ -5,6 +5,7 @@
   "plugin": [
     "@mohak34/opencode-notifier@latest",
     "opencode-sessions@latest",
+    "@gotgenes/opencode-agent-identity",
     "superpowers@git+https://github.com/obra/superpowers.git",
     "@cortexkit/opencode-magic-context@latest"
   ],
