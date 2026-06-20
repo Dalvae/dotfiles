@@ -9,8 +9,8 @@ return {
     "nvim-java/nvim-java-dap",
     "MunifTanjim/nui.nvim",
     "neovim/nvim-lspconfig",
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
+    "mason-org/mason.nvim",
+    "mason-org/mason-lspconfig.nvim",
     "mfussenegger/nvim-dap",
   },
   config = function()

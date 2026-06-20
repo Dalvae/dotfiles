@@ -75,3 +75,51 @@ eval "$(pyenv init -)"
 # Terminal and NVM
 export TERMINAL=kitty
 source /usr/share/nvm/init-nvm.sh
+
+# ── Kitty font/theme presets (fontpreset/themepreset/fontedit/themeedit) ──
+# Cambiar preset de fuente de kitty: fontpreset <nombre> | fontpreset (lista)
+fontpreset() {
+  local d="$HOME/.config/kitty/fonts" link="$HOME/.config/kitty/font.conf"
+  if [ -z "$1" ]; then
+    echo "presets:"; ls "$d" 2>/dev/null | sed 's/\.conf$//' | sed 's/^/  /'
+    echo "activo: $(basename "$(readlink "$link" 2>/dev/null)" .conf)"
+    return 0
+  fi
+  [ -f "$d/$1.conf" ] || { echo "no existe '$1'. hay:"; ls "$d" | sed 's/\.conf$//'; return 1; }
+  ln -sf "fonts/$1.conf" "$link" && pkill -USR1 -x kitty 2>/dev/null
+  echo "fuente -> $1 (recargado)"
+}
+# autocompletado TAB para fontpreset (lee la carpeta en vivo)
+_fontpreset() { compadd $(ls ~/.config/kitty/fonts/ 2>/dev/null | sed 's/\.conf$//'); }
+compdef _fontpreset fontpreset
+
+# Recargar kitty a mano (aplica cualquier edición de config)
+alias kittyreload='pkill -USR1 -x kitty 2>/dev/null'
+
+# Editar el preset de fuente ACTIVO y recargar al guardar (nunca editas el equivocado)
+fontedit() {
+  local target="$HOME/.config/kitty/$(readlink "$HOME/.config/kitty/font.conf")"
+  ${EDITOR:-nvim} "$target" && pkill -USR1 -x kitty 2>/dev/null && echo "recargado: $(basename "$target" .conf)"
+}
+
+# Cambiar tema de kitty: themepreset <nombre> | themepreset (lista)
+themepreset() {
+  local d="$HOME/.config/kitty/themes" link="$HOME/.config/kitty/theme.conf"
+  if [ -z "$1" ]; then
+    echo "temas:"; ls "$d" 2>/dev/null | sed 's/\.conf$//' | sed 's/^/  /'
+    echo "activo: $(basename "$(readlink "$link" 2>/dev/null)" .conf)"
+    return 0
+  fi
+  [ -f "$d/$1.conf" ] || { echo "no existe '$1'. hay:"; ls "$d" | sed 's/\.conf$//'; return 1; }
+  ln -sf "themes/$1.conf" "$link" && pkill -USR1 -x kitty 2>/dev/null
+  echo "tema -> $1 (recargado)"
+}
+# autocompletado TAB para themepreset
+_themepreset() { compadd $(ls ~/.config/kitty/themes/ 2>/dev/null | sed 's/\.conf$//'); }
+compdef _themepreset themepreset
+
+# Editar el tema ACTIVO y recargar al guardar
+themeedit() {
+  local target="$HOME/.config/kitty/$(readlink "$HOME/.config/kitty/theme.conf")"
+  ${EDITOR:-nvim} "$target" && pkill -USR1 -x kitty 2>/dev/null && echo "recargado: $(basename "$target" .conf)"
+}

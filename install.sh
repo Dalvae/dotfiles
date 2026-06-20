@@ -49,6 +49,7 @@ mkdir -p ~/.zsh
 echo "Copying dotfiles..."
 cp -r hypr ~/.config/
 cp -r kitty ~/.config/
+cp -r i3 ~/.config/
 cp -r gtklock ~/.config/
 cp -r waybar ~/.config/
 cp -r wofi ~/.config/
